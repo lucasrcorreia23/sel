@@ -19,7 +19,7 @@ const AdvantagesSection = () => {
 
                     </div>
                     {Data.items.map((item, key) => (
-                    <div key={`advantages-item-${key}`} className="col-md-6 col-lg-3">
+                    <div key={`advantages-item-${key}`} className="col-md-6 col-lg-4 mx-auto">
 
                         <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60">
                             <h4 className="mil-upper mil-mb-30">{item.title}</h4>

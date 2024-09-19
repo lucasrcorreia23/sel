@@ -36,19 +36,19 @@ const DefaultFooter = () => {
 
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Wills Point</span>
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Palhoça</span>
                             <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">8619 S Wolcott Avenue <br/>Floor 202 <br/>Chicago, IL 60620 <br/>(773) 238 - 7162</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Chicago</span>
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Florianópolis</span>
                             <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">10233 Gaillard Lake Est <br/>Suite 420 <br/>Houston, TX 75169 <br/>(903) 560 - 9830</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Harriman</span>
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">São José</span>
                             <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">5 Harriman Woods Dr <br/>Suite 702 <br/>New York, NY 10926 <br/>(570) 253 - 2853</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Largo</span>
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">São Paulo</span>
                             <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">1071 Donegan Rd <br/>Suite 1300 <br/>Florida, FL 33771 <br/>(727) 223 - 5371</p>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const DefaultFooter = () => {
                     ))}
                 </ul>
                 <ul className="mil-light-soft mil-mb-15">
-                    <li><a href="#.">Our App</a></li>
+                    
                     <li><a href="#.">Sitemap</a></li>
                 </ul>
             </div>

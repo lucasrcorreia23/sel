@@ -42,10 +42,8 @@ async function Home1() {
         <LatestProjectsSection projects={projects} />
       </Suspense>
       <HowWeWorkSection />
-      <Suspense fallback={<div>Loading...</div>}>
-        <LatestPostsSection posts={posts} />
-      </Suspense>
-      <CoresSection />
+      
+     
     </>
   );
 };

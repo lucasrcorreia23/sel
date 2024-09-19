@@ -4,7 +4,7 @@ const HowWeWorkSection = () => {
   return (
     <>
         {/* how we work */}
-        <section>
+        <section className="mb-80">
             <div className="container mil-p-90-60">
                 <div className="mil-background-grid mil-softened" />
 
@@ -13,7 +13,8 @@ const HowWeWorkSection = () => {
 
                         <div className="mil-center mil-mb-90">
                             <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
-                            <h2 className="mil-upper mil-up" dangerouslySetInnerHTML={{__html : Data.title}} />
+                            <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
+                            <p className="mil-up " dangerouslySetInnerHTML={{__html : Data.description}} />
                         </div>
 
                     </div>
@@ -24,7 +25,7 @@ const HowWeWorkSection = () => {
                             <div className="mil-icon mil-icon-border mil-mb-30">
                                 <img src={item.icon} alt="icon" />
                             </div>
-                            <h4 className="mil-upper mil-mb-20">{item.title}</h4>
+                            <h4 className="mil-upper mil-mb-20 col-lg-10">{item.title}</h4>
                             <div className="mil-divider-sm mil-mb-20"></div>
                             <p>{item.text}</p>
                         </div>

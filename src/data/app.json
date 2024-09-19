@@ -23,11 +23,11 @@
                 ]
             },
             {
-                "label": "Serviços",
+                "label": "Soluções",
                 "link": "/services",
                 "children": [
                     {
-                        "label": "Nosso serviços",
+                        "label": "Nossas soluções",
                         "link": "/services"
                     },
                     {
@@ -39,16 +39,9 @@
            
             {
                 "label": "A SEL",
-                "link": "/team",
+                "link": "/about",
                 "children": [
-                    {
-                        "label": "Sobre nós",
-                        "link": "/about"
-                    },
-                    {
-                        "label": "Equipe",
-                        "link": "/team"
-                    }
+                    
                     
                 ]
             },
@@ -65,26 +58,19 @@
             "image": "/img/logo/logo-light.png",
             "alt": "Logo"
         },
-        "copy": "© 2023 Ruizarch. All rights reserved.",
+        "copy": "© 2023 SEL Consultoria. Todos os direitos reservados.",
         "menu": [
             {
-                "label": "About",
+                "label": "Sobre nós",
                 "link": "/about"
             },
             {
-                "label": "Services",
+                "label": "Serviços",
                 "link": "/services"
-            },
+            },           
+          
             {
-                "label": "Projects",
-                "link": "/projects"
-            },
-            {
-                "label": "Blog",
-                "link": "/blog"
-            },
-            {
-                "label": "Contact",
+                "label": "Contato",
                 "link": "/contact"
             }
         ]

@@ -1,21 +1,22 @@
 {
-    "title": "This is How Magic Happens",
-    "subtitle": "How We Work",
+    "title": "Abordagem completa com foco no resultado",
+    "subtitle": "Resultados",
+    "description": "Atuamos em todas as esferas responsáveis pelo crescimento da sua empresa. Desde o planejamento estratégico até a execução operacional, descubra como a nossa expertise abrange cada etapa da sua jornada.",
     "items": [
         {
-            "title": "High Efficiency",
+            "title": "Estratégico: Definindo o Rumo",
             "icon": "/img/icons/7.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "Trabalhamos com o conselho executivo para alinhar a empresa com seus objetivos de longo prazo. Revisamos missão, visão, valores e definimos expectativas claras, garantindo um futuro sólido e sustentável."
         },
         {
-            "title": "Team of Experts",
+            "title": "Tático: Transformando Estratégias em Ações",
             "icon": "/img/icons/8.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "Transformamos estratégias em ações concretas. Oferecemos consultoria, treinamentos e palestras sobre finanças, gestão de pessoas e investimentos, equipando sua empresa para o crescimento estruturado."
         },
         {
-            "title": "Technology",
+            "title": "Operacional: Execução com Excelência",
             "icon": "/img/icons/9.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "Garantimos a execução precisa das operações, com diagnósticos e soluções pontuais para otimizar cada etapa do processo, assegurando eficiência e resultados concretos."
         }
     ]
 }

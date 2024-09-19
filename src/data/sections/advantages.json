@@ -1,23 +1,27 @@
 {
-    "title": "We Take Care of Everything <br>for You!",
-    "subtitle": "Our Advantages",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore aliqua.",
+    "title": "Como fazemos?",
+    "subtitle": "processo",
+    "description": "Confira cada etapa da jornada rumo ao sucesso do seu negócio.",
     "items": [
         {
-            "title": "Listen",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "title": "Reunião de Reconhecimento",
+            "text": "Entendemos suas dores e mapeamos suas necessidades, oferecendo uma visão clara do que pode ser transformado."
         },
         {
-            "title": "Strategies",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "title": "Forças e Fraquezas",
+            "text": "Identificamos os pontos fortes e as áreas que precisam de atenção para construir uma estratégia eficiente e personalizada."
         },
         {
-            "title": "Project Work",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "title": "Projeto de Consultoria",
+            "text": "Desenvolvemos um plano estratégico detalhado, com soluções práticas para levar sua empresa ao próximo nível."
         },
         {
-            "title": "Launch",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "title": "Timeline    de Aplicação",
+            "text": "Organizamos cada etapa da implementação, garantindo prazos e clareza na execução das mudanças.."
+        },
+        {
+            "title": "Início da Aplicação",
+            "text": "Com o plano em mãos, começamos a colocar em prática as soluções que vão transformar sua empresa e maximizar resultados."
         }
     ]
 }

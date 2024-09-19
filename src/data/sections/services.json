@@ -1,26 +1,33 @@
 {
-    "title": "What We Do",
-    "subtitle": "Services",
+    "title": "O que nós fazemos",
+    "subtitle": "Soluções",
     "items": [
         {
             "icon": "/img/icons/3.svg",
             "num": "01.",
-            "title": "Interior Decor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
+            "title": "Consultoria Empresarial",
+            "text": "Capacitação e treinamento para empresários que desejam aprimorar suas competências em gestão de negócios. Nosso objetivo é transformar a forma como você gerencia seu negócio.",
             "link": "/services/service-1"
         },
         {
             "icon": "/img/icons/5.svg",
             "num": "02.",
-            "title": "Interior Decor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
+            "title": "Operações Pontuais e Diagnósticos Empresariais",
+            "text": "Responda rapidamente aos desafios de gestão com as nossas Operações Pontuais e diagnósticos empresariais, sem necessidade de acompanhamento prolongado.",
             "link": "/services/service-2"
         },
         {
             "icon": "/img/icons/4.svg",
             "num": "03.",
-            "title": "Interior Decor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
+            "title": "Conselho Executivo",
+            "text": "Tome decisões estratégicas com segurança. Converse com consultores que entendem seu negócio e estão prontos para oferecer orientações valiosas.",
+            "link": "/services/service-3"
+        },
+        {
+            "icon": "/img/icons/4.svg",
+            "num": "04.",
+            "title": "Diagnóstico Estratégico",
+            "text": "Identifique oportunidades e desafios com uma análise inicial detalhada do seu negócio. Descubra como a SEL pode ajudar você a alcançar seus objetivos.",
             "link": "/services/service-3"
         }
     ]

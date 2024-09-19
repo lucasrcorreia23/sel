@@ -22,7 +22,7 @@ const ServicesSection = () => {
                     </div>
 
                     {Data.items.map((item, key) => (
-                    <div key={`services-item-${key}`} className="col-lg-4">
+                    <div key={`services-item-${key}`} className="col-lg-3">
 
                         <Link href={item.link} className="mil-service-card mil-up mil-mb-30">
                             <div className="mil-card-number">{item.num}</div>

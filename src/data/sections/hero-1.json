@@ -1,7 +1,7 @@
 {
     "bg_image": "/img/photo/1.jpg",
     "title": "Consultoria<br/> <span class=\"mil-accent\">Financeira</span><br/>de Empresário<br/>  para Empresário",
-    "subtitle": "The future",
+    "subtitle": "O futuro da consultoria empresarial",
     "button": {
         "link": "#",
         "label": "Como podemos te ajudar?"
@@ -18,12 +18,12 @@
         "label": "Faturamento <br/>Assistido"
     },
     {
-        "value": "16",
+        "value": "+16",
         "afterValue": " anos",
         "label": "de experiência"
     },
     {
-        "value": "50",
+        "value": "+50",
         "afterValue": "% ",
         "label": "em média no aumento de faturamento"
     }
