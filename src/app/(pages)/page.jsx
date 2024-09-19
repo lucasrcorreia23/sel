@@ -21,7 +21,7 @@ const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { 
 export const metadata = {
   title: {
 		default: AppData.settings.siteName,
-		template: "%s | " + AppData.settings.siteName,
+		
 	},
   description: AppData.settings.siteDescription,
 }

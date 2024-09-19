@@ -16,7 +16,7 @@ import AppData from "@data/app.json";
 export const metadata = {
   title: {
 		default: AppData.settings.siteName,
-		template: "%s | " + AppData.settings.siteName,
+	
 	},
   description: AppData.settings.siteDescription,
 }
@@ -25,7 +25,7 @@ const Layouts = ({
   children
 }) => {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body>
         <div className="mil-wrapper">
           {children}
