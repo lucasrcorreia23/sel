@@ -15,6 +15,7 @@ import LatestProjectsSection from "@components/sections/LatestProjects";
 import HowWeWorkSection from "@components/sections/HowWeWork";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import CoresSection from "@components/sections/Cores";
+import CallToActionSection from "../_components/sections/CallToAction";
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 
@@ -42,6 +43,7 @@ async function Home1() {
         <LatestProjectsSection projects={projects} />
       </Suspense>
       <HowWeWorkSection />
+      <CallToActionSection />
       
      
     </>

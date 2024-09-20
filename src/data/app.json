@@ -26,14 +26,7 @@
                 "label": "Soluções",
                 "link": "/services",
                 "children": [
-                    {
-                        "label": "Nossas soluções",
-                        "link": "/services"
-                    },
-                    {
-                        "label": "Especialidade",
-                        "link": "/services/service-1"
-                    }
+                    
                 ]
             },
            
@@ -65,7 +58,7 @@
                 "link": "/about"
             },
             {
-                "label": "Serviços",
+                "label": "Soluções",
                 "link": "/services"
             },           
           

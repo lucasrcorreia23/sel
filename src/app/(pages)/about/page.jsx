@@ -17,7 +17,7 @@ const CompanyTwoSlider = dynamic( () => import("@components/sliders/CompanyTwo")
 
 export const metadata = {
   title: {
-		default: "About",
+		default: "Sobre a SEL",
 	},
   description: AppData.settings.siteDescription,
 }
@@ -25,7 +25,7 @@ export const metadata = {
 const About = () => {
   return (
     <>
-      <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"/img/photo/11.jpg"} />
       <ServicesTwoSection />
       <ContactInfoSection />
       <CompanyTwoSlider />

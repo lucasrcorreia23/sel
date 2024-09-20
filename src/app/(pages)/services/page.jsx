@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: {
-    default: "Services",
+    default: "Soluções",
   },
   description: AppData.settings.siteDescription,
 }
