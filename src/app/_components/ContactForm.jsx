@@ -40,7 +40,7 @@ const ContactForm = ( { subtitleOffset } ) => {
                 }
             }).then(response => {
                 if (response.ok) {
-                    status.innerHTML = "<h5>Obrigado, sua mensagem foi enviada com sucesso.</h5>";
+                    status.innerHTML = "<h5>Obrigado. <br/>Sua mensagem foi enviada com sucesso.</h5>";
                     status.style.display = "block"; // Mostra a mensagem
                     form.reset();
                 } else {
@@ -93,10 +93,10 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-6">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Email address</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>E-mail</span><span className="mil-required">*</span></label>
                         <input 
                             type="email" 
-                            placeholder="Enter Your Email Here"
+                            placeholder="Insira aqui o seu e-mail"
                             name="email"
                             required="required"
                             onChange={handleChange}
@@ -109,10 +109,10 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-6">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Phone</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>Telefone</span><span className="mil-required">*</span></label>
                         <input 
                             type="tel" 
-                            placeholder="Enter Your Phone Here"
+                            placeholder="Insira seu telefone corporativo"
                             name="tel"
                             required="required"
                             onChange={handleChange}
@@ -125,11 +125,11 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-6">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Budget</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>Assunto</span><span className="mil-required">*</span></label>
                         <input 
                             type="text" 
-                            placeholder="Enter Your Budget Here"
-                            name="budget"
+                            placeholder="Qual o assunto?"
+                            name="assunto"
                             required="required"
                             onChange={handleChange}
                             onBlur={handleBlur}
@@ -141,9 +141,9 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-12">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Message</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>Mensagem</span><span className="mil-required">*</span></label>
                         <textarea 
-                            placeholder="Enter Your Name Here"
+                            placeholder="Detalhe suas necessidades."
                             name="message" 
                             required="required"
                             onChange={handleChange}
@@ -157,17 +157,18 @@ const ContactForm = ( { subtitleOffset } ) => {
 
                     <div className="mil-checbox-frame mil-dark-input mil-up mil-mb-30">
                         <input defaultChecked className="mil-checkbox" id="checkbox-1" type="checkbox" value="value" namge="agree" required />
-                        <label htmlFor="checkbox-1" className="mil-text-sm">Accept the terms and conditions of personal data.</label>
+                        <label htmlFor="checkbox-1" className="mil-text-sm">Estou ciente dos termos para utilização de meus dados pessoais.</label>
                     </div>
 
                 </div>
-                <div className="col-lg-12">
+                <div className="col-lg-5">
 
-                    <button type="submit" className="mil-button mil-up">Send Now</button>
+                    <button type="submit" className="mil-button mil-up">Enviar</button>
 
                 </div>
+                <div className="col-lg-7 form-status alert-success " id="contactFormStatus" style={{"display": "none"}} />
             </div>
-            <div className="form-status alert-success mil-mb-90" id="contactFormStatus" style={{"display": "none"}} />
+            
         </form>
         )}
         </Formik>

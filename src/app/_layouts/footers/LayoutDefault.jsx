@@ -17,7 +17,7 @@ const DefaultFooter = () => {
         <div className="container mil-p-120-90">
             <div className="mil-background-grid" />
 
-            <div className="row align-items-end">
+            <div className="row align-items-start">
                 <div className="col-lg-8">
                     <div className="row">
                         <div className="col-12">
@@ -53,10 +53,18 @@ const DefaultFooter = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4">
-                    <Link href="/" className="mil-footer-logo mil-up mil-mb-30">
-                        <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
-                    </Link>
+                <div className="col-lg-4 align-items-end sm-align-items-start d-flex flex-column mx-auto">
+                    
+                <Link href="#" className="mil-link mil-light mil-upper mil-right mil-mb-60">Baixar portfólios de produtos <span className="mil-arrow"><img src="img/icons/5.svg" alt="arrow" /></span></Link>      
+                        
+                        <Link href="/" className="mil-footer-logo mil-up ">
+                            <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
+                        </Link>                        
+                        
+                   
+                                
+                        
+                    
                 </div>
             </div>
         </div>
