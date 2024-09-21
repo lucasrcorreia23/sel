@@ -1,9 +1,9 @@
 {
-    "title": "What We Have Done",
-    "subtitle": "Work",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "title": "Quem são os responsáveis por impulsionar o seu negócio?",
+    "subtitle": "Consultoria",
+    "description": "Atuamos no mercado desenvolvendo soluções personalizadas para o seu negócio. O foco está na gestão empresarial, auxiliando áreas como: finanças, custos, estrutura organizacional, comunicação interna, RH, processo produtivo, logística, nível de produção e vendas.",
     "button": {
-        "label": "See Projects",
+        "label": "Ver clientes",
         "link": "/portfolio"
     },
     "items": [

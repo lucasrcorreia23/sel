@@ -21,6 +21,7 @@ const ContactForm = ( { subtitleOffset } ) => {
             return errors;
         }}
         onSubmit = {( values, { setSubmitting } ) => {
+            console.log("Submitting form with values: ", values);
             const form = document.getElementById("contactForm");
             const status = document.getElementById("contactFormStatus");
             const data = new FormData();
@@ -39,19 +40,23 @@ const ContactForm = ( { subtitleOffset } ) => {
                 }
             }).then(response => {
                 if (response.ok) {
-                    status.innerHTML = "<h5>Thanks, your message is sent successfully.</h5>";
-                    form.reset()
+                    status.innerHTML = "<h5>Obrigado, sua mensagem foi enviada com sucesso.</h5>";
+                    status.style.display = "block"; // Mostra a mensagem
+                    form.reset();
                 } else {
                     response.json().then(data => {
                         if (Object.hasOwn(data, 'errors')) {
-                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
                         } else {
-                            status.innerHTML = "<h5>Oops! There was a problem submitting your form</h5>"
+                            status.innerHTML = "<h5>Oops! Ocorreu um problema ao enviar seu formulário</h5>";
                         }
-                    })
+                        status.style.display = "block"; // Mostra a mensagem de erro
+                    });
                 }
-            }).catch(error => {
-                status.innerHTML = "<h5>Oops! There was a problem submitting your form</h5>"
+            })
+            .catch(error => {
+                status.innerHTML = "<h5>Oops! Ocorreu um problema ao enviar seu formulário</h5>";
+                status.style.display = "block"; // Mostra a mensagem de erro
             });
 
             setSubmitting(false);
@@ -72,10 +77,10 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-6">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Full Name</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>Nome completo</span><span className="mil-required">*</span></label>
                         <input 
                             type="text" 
-                            placeholder="Enter Your Name Here"
+                            placeholder="Insira seu nome"
                             name="name" 
                             required="required" 
                             onChange={handleChange}

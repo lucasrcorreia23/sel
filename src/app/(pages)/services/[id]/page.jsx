@@ -44,23 +44,7 @@ async function ServiceDetail( { params } ) {
                                 <div className="mil-text mil-up mil-mb-60" dangerouslySetInnerHTML={{__html: item.content}} />
                             </>
                             }
-                            {item.layout == 2 &&
-                            <>
-                                <h2 className="mil-upper mil-up mil-mb-60">{item.title}</h2>
-                                <div className="row justify-content-between">
-                                    <div className="col-lg-6">
-                                        <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html: item.content}} />
-                                    </div>
-                                    <div className="col-lg-5">
-                                        <ul className="mil-icon-list mil-mb-60">
-                                            {item.list.map((list_item, list_key) => (
-                                            <li className="mil-up" key={`service-description-${key}-list-${list_key}`}><img src="/img/icons/11.svg" alt="icon" />{list_item}</li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </div>
-                            </>
-                            }
+                            
                             {item.divider == true &&
                             <div className="mil-divider-lg mil-up mil-mb-60" />
                             }

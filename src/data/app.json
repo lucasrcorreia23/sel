@@ -2,7 +2,7 @@
     "settings": {
         "siteName": "SEL Consultoria",
         "siteDescription": "Consultoria financeira de empresário para empresário",
-        "formspreeURL": "www.selconsultoria.com.br",
+        "formspreeURL": "https://formspree.io/f/xdknrzql",
         "mailchimp": {
             "url": "",
             "key": ""
@@ -54,12 +54,16 @@
         "copy": "© 2023 SEL Consultoria. Todos os direitos reservados.",
         "menu": [
             {
-                "label": "Sobre nós",
-                "link": "/about"
+                "label": "Início",
+                "link": "/"
             },
             {
                 "label": "Soluções",
                 "link": "/services"
+            },
+            {
+                "label": "A SEL",
+                "link": "/about"
             },           
           
             {

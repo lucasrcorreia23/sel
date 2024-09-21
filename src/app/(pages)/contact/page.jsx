@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export const metadata = {
     title: {
-        default: "Contact",
+        default: "Contato",
     },
     description: AppData.settings.siteDescription,
 }
@@ -17,7 +17,7 @@ export const metadata = {
 const Contact = () => {
   return (
     <>
-        <PageBanner pageTitle={"We’d love to talk"} breadTitle={"Contact"} bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Contato"} breadTitle={"Contato"} bgImage={"/img/photo/12.jpg"} />
 
         {/* about */}
         <section>
@@ -28,20 +28,19 @@ const Contact = () => {
                     <div className="col-lg-6">
 
                         <div className="mil-mb-90">
-                            <h2 className="mil-upper mil-up mil-mb-30">Info Contact</h2>
-                            <p className="mil-up mil-mb-40">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution of letters.</p>
+                            <h2 className="mil-upper mil-up mil-mb-30">Informações <br/>de contato</h2>
+                            <p className="mil-up mil-mb-40">Entre em contato para otimizar a gestão financeira da sua empresa com a SEL Consultoria. Estamos preparados para guiar seu negócio em direção a um crescimento sólido e sustentável.</p>
                         </div>
 
                     </div>
                     <div className="col-lg-4 mil-relative">
 
                         <div className="mil-contact-sidebar">
-
-                            <img src="img/photo/2.jpg" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover", "objectPosition": "0 -60px"}} className="mil-mb-30" />
+                           
 
                             <div className="mil-sidebar-info">
 
-                                <h6 className="mil-upper mil-up mil-mb-30">Headquarters</h6>
+                                <h6 className="mil-upper mil-up mil-mb-30">Endereços</h6>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">
                                     <li>USA</li>
                                     <li>New York - 1800 Wazee Street</li>
@@ -63,28 +62,7 @@ const Contact = () => {
                         </div>
 
                     </div>
-                    <div className="col-lg-7">
-                        <div className="row">
-                            <div className="col-lg-4">
-                                <div className="mil-up mil-mb-60">
-                                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">Wills Point</span>
-                                    <p className="mil-up">10233 Gaillard Lake Est <br/>Suite 420 <br/>Houston, TX 75169 <br/>(903) 560 - 9830</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4">
-                                <div className="mil-up mil-mb-60">
-                                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">Chicago</span>
-                                    <p className="mil-up">10233 Gaillard Lake Est <br/>Suite 420 <br/>Houston, TX 75169 <br/>(903) 560 - 9830</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4">
-                                <div className="mil-up mil-mb-60">
-                                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">Harriman</span>
-                                    <p className="mil-up">10233 Gaillard Lake Est <br/>Suite 420 <br/>Houston, TX 75169 <br/>(903) 560 - 9830</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -94,12 +72,13 @@ const Contact = () => {
         <div className="mil-map-frame mil-up">
             <div className="mil-map">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.0942942475317!2d-48.68004732485642!3d-27.621596123194724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735a1350fffff%3A0xcebfe4cc107f3e24!2sSel%20Consultoria!5e0!3m2!1spt-BR!2sbr!4v1726940230510!5m2!1spt-BR!2sbr" 
                     style={{"border": "0"}} 
                     allowFullScreen 
                     loading="lazy" 
                     referrerPolicy="no-referrer-when-downgrade"
                 />
+                
             </div>
         </div>
         {/* map end */}
@@ -112,12 +91,17 @@ const Contact = () => {
                     <div className="col-lg-4">
 
                         <div className="mil-mb-90">
-                            <h2 className="mil-upper mil-up mil-mb-30">We’d love to talk</h2>
-                            <p className="mil-up mil-mb-30">Have a question? We’d love to hear from you. Send us a note to get the conversation started - or click on an office above and talk to us. Especially about designing something, or something we’ve designed.</p>
+                            <h2 className="mil-upper mil-up mil-mb-30">Como podemos lhe ajudar?</h2>
+                            <p className="mil-up mil-mb-30">Preencha o formulário ao lado com os detalhes da sua necessidade que logo retornaremos.</p>
                             <div className="mil-divider-lg mil-up mil-mb-30"></div>
-                            <p className="mil-up mil-mb-30">Interested in joining the team? Browse our current openings.</p>
-                            <div className="mil-up">
-                                <Link href="/team" className="mil-link mil-upper">Join Us <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                            <p className="mil-up mil-mb-30">Nos acompanhe nas redes sociais e fique por dentro de conteúdos empresariais exclusivos.</p>
+                            <div className="mil-up mb-30">
+                                <Link href="#" className="mil-link mil-upper">Linkedin</Link>
+                                
+                            </div>
+                            <div className="mil-up mb-30">
+                            <Link href="#" className="mil-link mil-upper">Instagram </Link>
+                                
                             </div>
                         </div>
 

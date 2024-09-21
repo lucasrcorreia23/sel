@@ -30,11 +30,11 @@ const HeroTwoSlider = () => {
                         <div className="mil-background-grid mil-top-space" />
                         <div className="mil-banner-content" data-swiper-parallax-y="300" data-swiper-parallax-opacity="0">
 
-                            <div className="mil-mb-90">
-                                <span className="mil-suptitle mil-light mil-upper mil-mb-60" dangerouslySetInnerHTML={{__html : item.subtitle}} />
+                            <div className="mil-mb-90">                                
                                 <h1 className="mil-upper mil-light mil-mb-60" dangerouslySetInnerHTML={{__html : item.title}} />
+                                <p className="mil-light mil-mb-60" dangerouslySetInnerHTML={{__html : item.description}} />
                                 <Link href={item.link} className="mil-link mil-light mil-upper">
-                                    View A Project 
+                                    Entre em contato
                                     <span className="mil-arrow"><img src="img/icons/1.svg" alt="arrow" /></span>
                                 </Link>
                             </div>
@@ -50,8 +50,8 @@ const HeroTwoSlider = () => {
                     <div className="mil-banner-slider-panel">
                         <div className="mil-banner-pagination mil-mb-30" />
                         <div className="mil-nav-buttons mil-light mil-mb-30">
-                            <div className="mil-slider-button mil-banner-prev">Prev</div>
-                            <div className="mil-slider-button mil-banner-next">Next</div>
+                            <div className="mil-slider-button mil-banner-prev">Anterior</div>
+                            <div className="mil-slider-button mil-banner-next">Próximo</div>
                         </div>
                     </div>
                 </div>

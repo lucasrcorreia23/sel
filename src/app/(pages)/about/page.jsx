@@ -5,15 +5,18 @@ import AppData from "@data/app.json";
 
 import PageBanner from "@components/PageBanner";
 import AwardsSection from "@components/sections/Awards";
-import CallToActionTwoSection from "@components/sections/CallToActionTwo";
+import CallToActionSection from "@components/sections/CallToAction";
 import ContactInfoSection from "@components/sections/ContactInfo";
 import ServicesTwoSection from "@components/sections/ServicesTwo";
+import TeamSEL from "../../_components/sections/TeamSEL";
+
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const CompanySlider = dynamic( () => import("@components/sliders/Company"), { ssr: false } );
 const ProcessSlider = dynamic( () => import("@components/sliders/Process"), { ssr: false } );
 const CompanyTwoSlider = dynamic( () => import("@components/sliders/CompanyTwo"), { ssr: false } );
+
 
 export const metadata = {
   title: {
@@ -25,16 +28,11 @@ export const metadata = {
 const About = () => {
   return (
     <>
-      <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"/img/photo/11.jpg"} />
-      <ServicesTwoSection />
-      <ContactInfoSection />
+      <PageBanner pageTitle={"Sobre a SEL"} breadTitle={"Sobre a SEL"} bgImage={"/img/photo/11.jpg"} />     
       <CompanyTwoSlider />
-      <ProcessSlider paddingTop={"0"} />
-      <CompanySlider />
-      <PartnersSlider bgStyle={"soft"} />
-      <AwardsSection />
-      <TestimonialSlider showPartners={0} />
-      <CallToActionTwoSection />
+    <TeamSEL/>     
+    
+    <CallToActionSection />
     </>
   );
 };
