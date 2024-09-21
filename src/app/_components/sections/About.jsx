@@ -26,7 +26,7 @@ const AboutSection = () => {
                                 <p className="mil-up mil-mb-40" dangerouslySetInnerHTML={{__html : Data.description}} />
                                 <a onClick={() => setOpen(true)} className="mil-link mil-upper mil-up has-popup-video" style={{ "cursor" : "pointer" }}>
                                     {Data.button.label} 
-                                    <span className="mil-arrow"><img src="/img/icons/2.svg" alt="arrow" /></span>
+                                    <span className="mil-arrow"><img src="/img/icons/12.svg" alt="arrow" /></span>
                                 </a>
                             </div>
 

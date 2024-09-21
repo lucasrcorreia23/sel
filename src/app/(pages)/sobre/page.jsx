@@ -25,7 +25,7 @@ export const metadata = {
   description: AppData.settings.siteDescription,
 }
 
-const About = () => {
+const Sobre = () => {
   return (
     <>
       <PageBanner pageTitle={"Sobre a SEL"} breadTitle={"Sobre a SEL"} bgImage={"/img/photo/11.jpg"} />     
@@ -36,4 +36,4 @@ const About = () => {
     </>
   );
 };
-export default About;
+export default Sobre;

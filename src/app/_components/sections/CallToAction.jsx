@@ -7,6 +7,7 @@ const CallToActionSection = ( { bg } ) => {
         {/* call to action */}
         <section>
             <div className="container mil-p-0-120">
+            <div className="mil-background-grid mil-softened" />
                 <div className="row justify-content-between">
                     <div className="col-lg-4">
                         <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />

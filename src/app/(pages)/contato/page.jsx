@@ -14,7 +14,7 @@ export const metadata = {
     description: AppData.settings.siteDescription,
 }
 
-const Contact = () => {
+const Contato = () => {
   return (
     <>
         <PageBanner pageTitle={"Contato"} breadTitle={"Contato"} bgImage={"/img/photo/12.jpg"} />
@@ -118,4 +118,4 @@ const Contact = () => {
     </>
   );
 };
-export default Contact;
+export default Contato;

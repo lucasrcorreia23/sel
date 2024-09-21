@@ -24,7 +24,7 @@
             },
             {
                 "label": "Soluções",
-                "link": "/services",
+                "link": "/solucoes",
                 "children": [
                     
                 ]
@@ -32,7 +32,7 @@
            
             {
                 "label": "A SEL",
-                "link": "/about",
+                "link": "/sobre",
                 "children": [
                     
                     
@@ -41,7 +41,7 @@
            
             {
                 "label": "Contato",
-                "link": "/contact",
+                "link": "/contato",
                 "children": 0
             }
         ]
@@ -74,21 +74,14 @@
     },
     "social": [
         {
-            "link": "https://facebook.com",
-            "title": "Facebook"
-        },
-        {
-            "link": "https://twitter.com",
-            "title": "Twitter"
-        },
+            "link": "https://linkedin.com",
+            "title": "Linkedin"
+        },       
         {
             "link": "https://instagram.com",
             "title": "Instagram"
-        },
-        {
-            "link": "https://youtube.com",
-            "title": "Youtube"
         }
+        
     ],
     "projects": {
         "categories": [

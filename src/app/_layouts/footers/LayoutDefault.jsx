@@ -55,16 +55,10 @@ const DefaultFooter = () => {
                 </div>
                 <div className="col-lg-4 align-items-end sm-align-items-start d-flex flex-column mx-auto">
                     
-                <Link href="#" className="mil-link mil-light mil-upper mil-right mil-mb-60">Baixar portfólios de produtos <span className="mil-arrow"><img src="img/icons/5.svg" alt="arrow" /></span></Link>      
-                        
+                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" target="_blank" className="mil-link mil-light mil-upper mil-right mil-mb-60">Baixar portifólio de produtos <span className="mil-arrow"><img src="img/icons/5.svg" alt="arrow" /></span></Link>                         
                         <Link href="/" className="mil-footer-logo mil-up ">
                             <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
-                        </Link>                        
-                        
-                   
-                                
-                        
-                    
+                        </Link>                                           
                 </div>
             </div>
         </div>
@@ -73,13 +67,20 @@ const DefaultFooter = () => {
             <div className="mil-footer-bottom">
                 <p className="mil-light-soft mil-mb-15">{AppData.footer.copy}</p>
                 <ul className="mil-light-soft mil-mb-15">
+                    
+                <li><a href="https://www.estudionakama.com.br" target="_about" className="mil-light-soft mil-mb-15">Desenvolvido por Estúdio Nákama</a>
+                </li>
+                </ul>
+                
+                <ul className="mil-light-soft mil-mb-15">
                     {AppData.social.map((item, key) => (
                     <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank">{item.title}</a></li>
                     ))}
                 </ul>
                 <ul className="mil-light-soft mil-mb-15">
                     
-                    <li><a href="#.">Sitemap</a></li>
+                    <li><a href="/">Termos de uso</a></li>
+                    <li><a href="/">Políticas de Privacidade</a></li>
                 </ul>
             </div>
 
