@@ -59,16 +59,16 @@
             },
             {
                 "label": "Soluções",
-                "link": "/services"
+                "link": "/solucoes"
             },
             {
                 "label": "A SEL",
-                "link": "/about"
+                "link": "/sobre"
             },           
           
             {
                 "label": "Contato",
-                "link": "/contact"
+                "link": "/contato"
             }
         ]
     },
