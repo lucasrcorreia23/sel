@@ -61,7 +61,7 @@ const DefaultHeader = () => {
 
                     {/* right buttons */}
                     <div className="mil-top-panel-buttons">
-                        <Link href="/contact" className="mil-button mil-sm">Entre em contato</Link>
+                        <Link href="/contato" className="mil-button mil-sm">Entre em contato</Link>
 
                         <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}>
                             <span></span>

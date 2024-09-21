@@ -20,13 +20,14 @@ const NotFound = () => {
 
                 <div className="mil-banner-content">
                     <div className="row align-items-end justify-content-between">
-                        <div className="col-xl-5">
+                        <div className="col-xl-7">
 
                             <div className="mil-sm-center mil-mb-90">
-                                <span className="mil-suptitle mil-light mil-upper mil-mb-60">Page Not Found</span>
-                                <h1 className="mil-upper mil-light mil-mb-60">Error <span className="mil-marker mil-dark">404</span></h1>
-                                <p className="mil-light-soft mil-mb-60">The page you are looking for does not exist, it may have been moved or removed altogether.</p>
-                                <Link href="/" className="mil-button">Back to Home</Link>
+                                <span className="mil-suptitle mil-light mil-upper mil-mb-60">Opa, página não encontrada.</span>
+                                <h1 className="mil-upper mil-light mil-mb-30">Erro <span className="mil-marker mil-dark">404</span></h1>
+                                <p className="mil-light-soft mil-mb-30">A página que você estava buscando não existe ou não pôde ser encontrada por algum motivo.</p>
+                                <Link href="/" className="mil-button mil-mb-30">Volte para o início</Link>
+                                <Link href="/contato" className="mil-button">ou nos envie uma mensagem sobre o ocorrido</Link>
                             </div>
 
                         </div>
