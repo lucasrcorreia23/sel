@@ -4,6 +4,6 @@
     "description": "Entre me contato por um de nossos canais de comunicação.",
     "button": {
         "label": "Vamos conversar",
-        "link": "/contact"
+        "link": "/contato"
     }
 }
