@@ -61,6 +61,9 @@ async function Services() {
             <h3 className="mil-upper mil-up mil-mb-60">Base Estratégica</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6">
+              <p className="mil-text mil-up">Sua empresa está realmente preparada para o futuro ou<b> está apenas reagindo às situações do dia a dia?
+              <br/><br/></b>
+              </p>
                 <div className="mil-text mil-up" />A SEL atua na construção e
                 ajuste da missão, visão e valores da empresa, alinhando
                 objetivos de longo prazo com estratégias que atendam às
@@ -72,14 +75,14 @@ async function Services() {
               </div>
 
               <div className="col-lg-5">
-                <ul className="mil-icon-list mil-mb-60">
+                <ul className="mil-icon-list mil-mb-30">
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Definição de missão, visão e valores
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
-                    Sucessão familiar planejada
+                    Construção de Holding no âmbito familiar e empresarial
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
@@ -88,6 +91,10 @@ async function Services() {
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Comando e controle estratégico
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
+                    Internacionalização de empresas
                   </li>
                 </ul>
               </div>
@@ -98,11 +105,14 @@ async function Services() {
             <h3 className="mil-upper mil-up mil-mb-60">Administração Financeira</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6">
+              <p className="mil-text mil-up">Você tem controle total sobre seus números financeiros ou <b> sente que está perdendo oportunidades de crescimento?
+              <br/><br/></b>
+              </p>
                 <div className="mil-text mil-up" />Otimizamos a rotina administrativa e financeira com foco em gestão de capital de giro, análise de investimentos, controle de fluxo de caixa e orçamento empresarial. Trabalhamos na precificação, controle de custos e estratégias tributárias, além de planejar a distribuição de lucros, valuation e ponto de equilíbrio, garantindo decisões financeiras inteligentes e sustentáveis.
               </div>
 
               <div className="col-lg-5">
-                <ul className="mil-icon-list mil-mb-60">
+                <ul className="mil-icon-list mil-mb-30">
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Gestão do capital de giro eficiente
@@ -129,11 +139,13 @@ async function Services() {
             <h3 className="mil-upper mil-up mil-mb-60">Recursos Humanos</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6">
+              <p className="mil-text mil-up">Seu posicionamento de mercado está atraindo os clientes certos ou <b> você sente que a concorrência está sempre à frente?<br/><br/></b>
+              </p>
                 <div className="mil-text mil-up" />Nosso suporte em Recursos Humanos abrange desde a criação do organograma até o dimensionamento e recrutamento do quadro de funcionários. Implementamos avaliações de desempenho e políticas de remuneração baseadas em resultados, assegurando a eficiência no crescimento do capital humano.
               </div>
 
               <div className="col-lg-5">
-                <ul className="mil-icon-list mil-mb-60">
+                <ul className="mil-icon-list mil-mb-30">
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Organograma e dimensionamento assertivo
@@ -160,11 +172,13 @@ async function Services() {
             <h3 className="mil-upper mil-up mil-mb-60">Gestão de Produção & Logística</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6">
+              <p className="mil-text mil-up">Seus processos estão funcionando de forma fluida e eficiente ou <b> você está lidando com gargalos que afetam seus resultados?<br/><br/></b>
+              </p>
                 <div className="mil-text mil-up" />Cuidamos de todo o processo produtivo, desde o layout das fábricas até a gestão de estoques e centros de distribuição. Atuamos na qualificação de colaboradores e no controle de qualidade, propondo melhorias em instalações, layouts e fluxos operacionais para otimizar a produção e a logística.
               </div>
 
               <div className="col-lg-5">
-                <ul className="mil-icon-list mil-mb-60">
+                <ul className="mil-icon-list mil-mb-30">
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Layout produtivo otimizado
@@ -191,11 +205,13 @@ async function Services() {
             <h3 className="mil-upper mil-up mil-mb-60">Marketing & Estrutura de Mercado</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6">
+              <p className="mil-text mil-up">Seu posicionamento de mercado está atraindo os clientes certos ou<b> você sente que a concorrência está sempre à frente?<br/><br/></b>
+              </p>
                 <div className="mil-text mil-up" />Ajudamos a posicionar sua marca no mercado por meio da análise de concorrentes, estrutura de preços e estratégias de branding. Implementamos estudos de praça e produto, além de promover estratégias de marketing baseadas em pesquisa, visando aumentar o market share e garantir a comunicação eficiente da marca.
               </div>
 
               <div className="col-lg-5">
-                <ul className="mil-icon-list mil-mb-60">
+                <ul className="mil-icon-list mil-mb-30">
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Análise de concorrentes e mercado
@@ -222,12 +238,14 @@ async function Services() {
             <h3 className="mil-upper mil-up mil-mb-60">Planejamento de TI</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6">
+                <p className="mil-text mil-up">Sua tecnologia está impulsionando seu crescimento ou <b>você ainda enfrenta desafios operacionais por conta de sistemas desatualizados?<br/><br/></b>
+                </p>
                 <div className="mil-text mil-up" />Estruturamos os processos administrativos para implementar ferramentas tecnológicas que melhoram a gestão empresarial. Criamos centros de custo eficazes, definimos KPI’s e OKR’s e integramos soluções de BI que possibilitam um controle mais apurado e decisões rápidas, além de recomendar a infraestrutura tecnológica ideal para sua operação.
 
               </div>
 
               <div className="col-lg-5">
-                <ul className="mil-icon-list mil-mb-60">
+                <ul className="mil-icon-list mil-mb-30">
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Estruturação de processos para ERP

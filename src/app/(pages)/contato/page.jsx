@@ -17,7 +17,7 @@ export const metadata = {
 const Contato = () => {
   return (
     <>
-        <PageBanner pageTitle={"Contato"} breadTitle={"Contato"} bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Contato"} breadTitle={"Contato"} bgImage={"/img/photo/19.jpg"} />
 
         {/* about */}
         <section>
@@ -40,21 +40,21 @@ const Contato = () => {
 
                             <div className="mil-sidebar-info">
 
-                                <h6 className="mil-upper mil-up mil-mb-30">Endereços</h6>
+                                <h6 className="mil-upper mil-up mil-mb-30">Endereço</h6>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                    <li>USA</li>
-                                    <li>New York - 1800 Wazee Street</li>
-                                    <li>Suite 300 NY, NY 80202</li>
+                                    <li>Brasil</li>
+                                    <li>Palhoça - SC</li>
+                                    <li>Office Green - Rua da Praça</li>
+                                    <li>Av. Pedra Branca, 241</li>
+                                    <li>Sala 1015</li>
                                 </ul>
-                                <h6 className="mil-upper mil-up mil-mb-30">Phone</h6>
+                                <h6 className="mil-upper mil-up mil-mb-30">Telefone</h6>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                    <li>+7 (200) 600-30-30</li>
-                                    <li>+7 (200) 200 - 80 - 02</li>
+                                    <li>+55 (48) 9 9989-8020</li>                                   
                                 </ul>
-                                <h6 className="mil-upper mil-up mil-mb-30">Email</h6>
+                                <h6 className="mil-upper mil-up mil-mb-30">E-mail</h6>
                                 <ul className="mil-list mil-dark mil-up">
-                                    <li>info@ruizarch.com</li>
-                                    <li>hello@ruizarch.com</li>
+                                    <li>atendimento@sel-consultoria.com</li>                                   
                                 </ul>
                                 
                             </div>
@@ -96,11 +96,11 @@ const Contato = () => {
                             <div className="mil-divider-lg mil-up mil-mb-30"></div>
                             <p className="mil-up mil-mb-30">Nos acompanhe nas redes sociais e fique por dentro de conteúdos empresariais exclusivos.</p>
                             <div className="mil-up mb-30">
-                                <Link href="#" className="mil-link mil-upper">Linkedin</Link>
+                                <Link href="https://br.linkedin.com/company/selconsultoria" className="mil-link mil-upper">Linkedin</Link>
                                 
                             </div>
                             <div className="mil-up mb-30">
-                            <Link href="#" className="mil-link mil-upper">Instagram </Link>
+                            <Link href="https://www.instagram.com/selconsultoria" className="mil-link mil-upper">Instagram </Link>
                                 
                             </div>
                         </div>

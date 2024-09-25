@@ -28,8 +28,11 @@ const HeroOne = () => {
                                     <Link href={Data.button.link} className="mil-link mil-light mil-upper">{Data.button.label} <span className="mil-arrow"><img src="img/icons/1.svg" alt="arrow" /></span></Link>
                                 </div>
                             </div>
+                            
                             <div className="col-xl-5">
+                            <p class="mil-light mil-mb-10 mil-dados ">*Dados referentes ao Exercício de 2023.</p>
                                 <div className="row mil-mb-60">
+                                    
                                     {Data.numbers.map((item, key) => (
                                     <div className="col-6" key={`hero-numbers-item-${key}`}>
                                         <div className="mil-counter-frame mil-light mil-mb-30">
@@ -40,7 +43,9 @@ const HeroOne = () => {
                                         </div>
                                     </div>
                                     ))}
+                                    
                                 </div>
+                                
                             </div>
                         </div>
                     </div>

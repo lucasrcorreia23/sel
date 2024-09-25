@@ -3,8 +3,8 @@
     "subtitle": "Consultoria",
     "description": "Atuamos no mercado desenvolvendo soluções personalizadas para o seu negócio. O foco está na gestão empresarial, auxiliando áreas como: finanças, custos, estrutura organizacional, comunicação interna, RH, processo produtivo, logística, nível de produção e vendas.",
     "button": {
-        "label": "Ver clientes",
-        "link": "/portfolio"
+        "label": "Fale conosco",
+        "link": "/contato"
     },
     "items": [
         {
@@ -16,7 +16,7 @@
             "alt": "image"
         },
         {
-            "image": "/img/photo/1.jpg",
+            "image": "/img/photo/17.jpg",
             "alt": "image"
         }
     ]

@@ -22,7 +22,7 @@ const DefaultFooter = () => {
                     <div className="row">
                         <div className="col-12">
 
-                            <div className="mil-footer-navigation mil-up mil-mb-90">
+                            <div className="mil-footer-navigation mil-up mil-mb-30">
                                 <nav>
                                     <ul>
                                         {AppData.footer.menu.map((item, key) => (
@@ -35,27 +35,16 @@ const DefaultFooter = () => {
                             </div>
 
                         </div>
-                        <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Palhoça</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">8619 S Wolcott Avenue <br/>Floor 202 <br/>Chicago, IL 60620 <br/>(773) 238 - 7162</p>
+                        <div className="col-md-2 col-lg-2 col-xl-3">
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Palhoça - SC</span>
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">Office Green <br/>- Rua da Praça, Av. Pedra Branca, 241, Sala 1015.<br/> CEP 88132-000</p>
                         </div>
-                        <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Florianópolis</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">10233 Gaillard Lake Est <br/>Suite 420 <br/>Houston, TX 75169 <br/>(903) 560 - 9830</p>
-                        </div>
-                        <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">São José</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">5 Harriman Woods Dr <br/>Suite 702 <br/>New York, NY 10926 <br/>(570) 253 - 2853</p>
-                        </div>
-                        <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">São Paulo</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">1071 Donegan Rd <br/>Suite 1300 <br/>Florida, FL 33771 <br/>(727) 223 - 5371</p>
-                        </div>
+                       
                     </div>
                 </div>
                 <div className="col-lg-4 align-items-end sm-align-items-start d-flex flex-column mx-auto">
                     
-                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" target="_blank" className="mil-link mil-light mil-upper mil-right mil-mb-60">Baixar portifólio de produtos <span className="mil-arrow"><img src="img/icons/5.svg" alt="arrow" /></span></Link>                         
+                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" target="_blank" className="mil-link mil-light mil-upper mil-right mil-mb-60">Baixar portfólio de produtos <span className="mil-arrow"><img src="img/icons/5.svg" alt="arrow" /></span></Link>                         
                         <Link href="/" className="mil-footer-logo mil-up ">
                             <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
                         </Link>                                           
@@ -79,8 +68,8 @@ const DefaultFooter = () => {
                 </ul>
                 <ul className="mil-light-soft mil-mb-15">
                     
-                    <li><a href="/">Termos de uso</a></li>
-                    <li><a href="/">Políticas de Privacidade</a></li>
+                    <li><a href="/termos-de-uso">Termos de uso</a></li>
+                    <li><a href="/politicas-de-privacidade">Políticas de Privacidade</a></li>
                 </ul>
             </div>
 

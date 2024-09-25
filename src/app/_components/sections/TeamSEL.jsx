@@ -21,6 +21,7 @@ const TeamSEL = () => {
                 <h3 className="mil-upper mil-up mil-mb-30">
                   Quem é o Professor Luiz Henrique?
                 </h3>
+                
 
                 <div className="mil-divider-lg mil-up mil-mb-30" />
                 <div className="mil-up mil-text mil-text-sm mil-mb-30">
@@ -37,7 +38,13 @@ const TeamSEL = () => {
                   Hoje, leciona em programas de pós-graduação na área de
                   administração e finanças.
                 </div>
-                <Link href="#" className="mil-link mil-upper mil-up mil-mb-30">
+                <ul className="mil-hori-list mil-dark mil-up mil-mb-30">
+                           
+                            <li> <a href="https://www.linkedin.com/in/luiz-henrique-debei-herling-ab446597?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a></li>
+                            <li> <a href="https://www.instagram.com/professorluizh?igsh=MTk5ZnVkb2tlNnptZw==" target="_blank">Instagram</a></li>
+                          
+                        </ul>
+                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" className="mil-link mil-upper mil-up mil-mb-30">
                   Saiba mais sobre Luiz Henrique
                   <span className="mil-arrow">
                     <img src="img/icons/1.svg" alt="arrow" />
@@ -75,7 +82,13 @@ Especializada em Gestão de Pessoas, pesquisou e estudou a gestão de fluxo de c
 Atua como consultora de empresas há mais de 10 anos, possuindo vasta experiência no ambiente de gestão familiar de empresas, sucessão e rotina administrativa.
 
                 </div>
-                <Link href="#" className="mil-link mil-upper mil-up mil-mb-30">
+                <ul className="mil-hori-list mil-dark mil-up mil-mb-30">
+                           
+                           <li> <a href="https://www.linkedin.com/in/consultoracamilasdutra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a></li>
+                           <li> <a href="https://www.instagram.com/camilacsd/?igshid=NDc0ODY0MjQ%3D" target="_blank">Instagram</a></li>
+                         
+                       </ul>
+                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" className="mil-link mil-upper mil-up mil-mb-30">
                   Saiba mais sobre Camila Dutra
                   <span className="mil-arrow">
                     <img src="img/icons/1.svg" alt="arrow" />

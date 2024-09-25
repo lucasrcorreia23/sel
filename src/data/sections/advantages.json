@@ -4,23 +4,23 @@
     "description": "Confira cada etapa da jornada rumo ao sucesso do seu negócio.",
     "items": [
         {
-            "title": "Reunião de Reconhecimento",
+            "title": "1. Reunião de Reconhecimento",
             "text": "Entendemos suas dores e mapeamos suas necessidades, oferecendo uma visão clara do que pode ser transformado."
         },
         {
-            "title": "Forças e Fraquezas",
+            "title": "2. Forças e Fraquezas",
             "text": "Identificamos os pontos fortes e as áreas que precisam de atenção para construir uma estratégia eficiente e personalizada."
         },
         {
-            "title": "Projeto de Consultoria",
+            "title": "3. Projeto de Consultoria",
             "text": "Desenvolvemos um plano estratégico detalhado, com soluções práticas para levar sua empresa ao próximo nível."
         },
         {
-            "title": "Timeline    de Aplicação",
-            "text": "Organizamos cada etapa da implementação, garantindo prazos e clareza na execução das mudanças.."
+            "title": "4. Cronograma de Aplicação",
+            "text": "Organizamos cada etapa da implementação, garantindo prazos e clareza na execução das mudanças."
         },
         {
-            "title": "Início da Aplicação",
+            "title": "5. Início da Aplicação",
             "text": "Com o plano em mãos, começamos a colocar em prática as soluções que vão transformar sua empresa e maximizar resultados."
         }
     ]

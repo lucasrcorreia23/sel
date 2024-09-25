@@ -1,16 +1,16 @@
 {
     "button": {
-        "label": "Find a Space",
-        "link": "/contact"
+        "label": "Entre em contato",
+        "link": "/contato"
     },
     "items": [
         {
-            "label": "Email address",
-            "value": "projects@ruizarch.com"
+            "label": "E-mail",
+            "value": "atendimento@sel-consultoria.com"
         },
         {
-            "label": "Free Consultation",
-            "value": "1 800 847 7978"
+            "label": "Dúvidas?",
+            "value": "(48) 9 9989-8020"
         }
     ]
 }

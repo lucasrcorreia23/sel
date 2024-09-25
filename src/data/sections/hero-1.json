@@ -1,10 +1,10 @@
 {
     "bg_image": "/img/photo/1.jpg",
     "title": "Consultoria<br/> <span class=\"mil-accent\">Financeira</span><br/>de Empresário<br/>  para Empresário",
-    "subtitle": "O futuro da consultoria empresarial",
+    "subtitle": "Subir é um passo. Manter-se é o caminho.",
     "button": {
-        "link": "#",
-        "label": "Como podemos te ajudar?"
+        "link": "#resultados",
+        "label": "Tenha clareza financeira do seu negócio. Saiba mais"
     },
     "numbers": [
     {
@@ -18,7 +18,7 @@
         "label": "Faturamento <br/>Assistido"
     },
     {
-        "value": "+16",
+        "value": "+18",
         "afterValue": " anos",
         "label": "de experiência"
     },

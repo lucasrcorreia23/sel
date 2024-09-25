@@ -28,7 +28,7 @@ export const metadata = {
 const Sobre = () => {
   return (
     <>
-      <PageBanner pageTitle={"Sobre a SEL"} breadTitle={"Sobre a SEL"} bgImage={"/img/photo/11.jpg"} />     
+      <PageBanner pageTitle={"Sobre a SEL"} breadTitle={"Sobre a SEL"} bgImage={"/img/photo/18.jpg"} />     
       <CompanyTwoSlider />
     <TeamSEL/>     
     

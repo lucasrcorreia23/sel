@@ -4,7 +4,7 @@ const HowWeWorkSection = () => {
   return (
     <>
         {/* how we work */}
-        <section className="mb-80">
+        <section className="mb-80" id="resultados">
             <div className="container mil-p-90-60">
                 <div className="mil-background-grid mil-softened" />
 

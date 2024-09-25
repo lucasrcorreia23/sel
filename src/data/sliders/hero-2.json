@@ -1,33 +1,33 @@
 {
     "items": [
         {
-            "image": "/img/photo/9.jpg",
+            "image": "/img/photo/consultoria-empresarial.jpg",
             "alt": "image",
-            "subtitle": "The future",
+            "subtitle": "Você sente que está no controle total da gestão do seu negócio?",
             "title": "Consultoria <span class=\"mil-accent\">Empresarial</span>",
             "description": "Capacitação e treinamento para empresários que desejam aprimorar suas competências em gestão de negócios. <br><br>Nosso objetivo é transformar a forma como você gerencia seu negócio, ajudando a desenvolver habilidades críticas que vão desde a gestão financeira até a liderança eficaz. Seja qual for o seu desafio, estamos aqui para guiar você e o seu negócio.",
             "link": "/contato"
         },
         {
-            "image": "/img/photo/9.jpg",
+            "image": "/img/photo/operacao.jpg",
             "alt": "image",
-            "subtitle": "The future",
+            "subtitle": "Está enfrentando problemas de gestão que precisam de soluções rápidas e eficientes?",
             "title": "Operações <span class=\"mil-accent\">Pontuais</span> e<br> Diagnósticos <span class=\"mil-accent\">Empresariais</span>",
             "description": "Oferecemos respostas rápidas e eficazes para os problemas de gestão do dia a dia. Com o TTP (Trabalho Técnico Pontual), abordamos questões que podem ser resolvidas com soluções práticas e imediatas. Já o Enterprise Diagnostics é voltado para a elaboração de projetos técnicos detalhados, como Valuation, IPO, M&A, Planos de Negócios e Financial Analytics. Esses serviços são ideais para empresas que necessitam de diagnósticos precisos e relatórios técnicos que orientem decisões estratégicas sem a necessidade de um acompanhamento consultivo contínuo.",
             "link": "/contato"
         },
         {
-            "image": "/img/photo/9.jpg",
+            "image": "/img/photo/conselho-executivo.jpg",
             "alt": "image",
-            "subtitle": "The future",
+            "subtitle": "Você tem o apoio necessário para tomar decisões estratégicas com confiança?",
             "title": "Conselho <span class=\"mil-accent\">Executivo</span>",
             "description": "Solução ideal para empresários que precisam de apoio na tomada de decisões críticas. Combinando experiência empresarial, expertise intelectual e inteligência emocional, nossos conselheiros estão preparados para ouvir seus desafios e fornecer orientações estratégicas que realmente fazem a diferença.<br><br> Esse serviço é uma oportunidade para discutir ideias, receber conselhos práticos e ter a tranquilidade de saber que você está sendo orientado por quem realmente entende o seu mercado.",
             "link": "/contato"
         },
         {
-            "image": "/img/photo/9.jpg",
+            "image": "/img/photo/diagnostico.jpg",
             "alt": "image",
-            "subtitle": "The future",
+            "subtitle": "Já parou para analisar se a sua empresa está realmente preparada para crescer?",
             "title": "Diagnóstico <span class=\"mil-accent\">Estratégico</span>",
             "description": "O primeiro passo para entender as reais necessidades da sua empresa. Em uma sessão de brainstorming, nossos especialistas escutam suas preocupações e analisam as principais áreas do seu negócio, oferecendo uma visão clara das oportunidades e desafios que você enfrenta. <br><br>Com base nessa análise, mostramos como a SEL pode criar um projeto de consultoria personalizado para impulsionar seu crescimento e assegurar a sustentabilidade do seu negócio.",
             "link": "/contato"
