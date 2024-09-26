@@ -69,7 +69,7 @@ const DefaultFooter = () => {
                 <ul className="mil-light-soft mil-mb-15">
                     
                     <li><a href="/termos-de-uso">Termos de uso</a></li>
-                    <li><a href="#">Políticas de Privacidade</a></li>
+                    <li><a href="/politicas-de-privacidade">Políticas de Privacidade</a></li>
                 </ul>
             </div>
 

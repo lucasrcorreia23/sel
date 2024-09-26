@@ -18,14 +18,15 @@ const HowWeWorkSection = () => {
                         </div>
 
                     </div>
-                    {Data.items.map((item, key) => (
+                    {Data.items.map((item, key,) => (
                     <div key={`howwework-item-${key}`} className="col-lg-4">
 
                         <div className="mil-hww mil-icon-box mil-up mil-mb-60">
                             <div className="mil-icon mil-icon-border mil-mb-30">
                                 <img src={item.icon} alt="icon" />
                             </div>
-                            <h4 className="mil-upper mil-mb-20 col-lg-10">{item.title}</h4>
+                            <h4 className="mil-mb-20 col-lg-10" dangerouslySetInnerHTML={{__html : item.title}} />
+
                             <div className="mil-divider-sm mil-mb-20"></div>
                             <p>{item.text}</p>
                         </div>

@@ -33,7 +33,7 @@ async function Services() {
           <div className="mil-background-grid mil-softened" />
 
           <div className="row justify-content-center">
-            <div className="col-lg-10">
+            <div className="col-lg-8">
               <div className="mil-center mil-mb-120">
                 <span className="mil-suptitle mil-upper mil-up mil-mb-30">
                   Imersão integral
@@ -42,9 +42,9 @@ async function Services() {
                   Todas as soluções da SEL Consultoria têm como base a
                   transformação completa da empresa, abordando desde os aspectos
                   estratégicos até as operações mais práticas. Trabalhamos com
-                  uma visão holística, atuando em seis áreas essenciais para
+                  uma visão holística, atuando em <span class="mil-marker mil-light">seis áreas essenciais</span> para
                   garantir o crescimento sustentável e a eficiência das
-                  organizações, independentemente do tamanho ou setor. A seguir,
+                  organizações, <span class="mil-marker mil-light">independentemente do tamanho ou setor</span>. A seguir,
                   conheça os pilares que sustentam a nossa metodologia.
                 </p>
               </div>
@@ -60,7 +60,7 @@ async function Services() {
           <div className="mil-contact-frame mil-mb-30">
             <h3 className="mil-upper mil-up mil-mb-60">Base Estratégica</h3>
             <div className="flex row justify-content-between ">
-              <div className="col-lg-6">
+              <div className="col-lg-6 mil-mb-mobile-2">
               <p className="mil-text mil-up">Sua empresa está realmente preparada para o futuro ou<b> está apenas reagindo às situações do dia a dia?
               <br/><br/></b>
               </p>
@@ -104,7 +104,7 @@ async function Services() {
           <div className="mil-contact-frame mil-mb-30">
             <h3 className="mil-upper mil-up mil-mb-60">Administração Financeira</h3>
             <div className="flex row justify-content-between ">
-              <div className="col-lg-6">
+              <div className="col-lg-6 mil-mb-mobile-2">
               <p className="mil-text mil-up">Você tem controle total sobre seus números financeiros ou <b> sente que está perdendo oportunidades de crescimento?
               <br/><br/></b>
               </p>
@@ -138,7 +138,7 @@ async function Services() {
           <div className="mil-contact-frame mil-mb-30">
             <h3 className="mil-upper mil-up mil-mb-60">Recursos Humanos</h3>
             <div className="flex row justify-content-between ">
-              <div className="col-lg-6">
+              <div className="col-lg-6 mil-mb-mobile-2">
               <p className="mil-text mil-up">Seu posicionamento de mercado está atraindo os clientes certos ou <b> você sente que a concorrência está sempre à frente?<br/><br/></b>
               </p>
                 <div className="mil-text mil-up" />Nosso suporte em Recursos Humanos abrange desde a criação do organograma até o dimensionamento e recrutamento do quadro de funcionários. Implementamos avaliações de desempenho e políticas de remuneração baseadas em resultados, assegurando a eficiência no crescimento do capital humano.
@@ -171,7 +171,7 @@ async function Services() {
           <div className="mil-contact-frame mil-mb-30">
             <h3 className="mil-upper mil-up mil-mb-60">Gestão de Produção & Logística</h3>
             <div className="flex row justify-content-between ">
-              <div className="col-lg-6">
+              <div className="col-lg-6 mil-mb-mobile-2">
               <p className="mil-text mil-up">Seus processos estão funcionando de forma fluida e eficiente ou <b> você está lidando com gargalos que afetam seus resultados?<br/><br/></b>
               </p>
                 <div className="mil-text mil-up" />Cuidamos de todo o processo produtivo, desde o layout das fábricas até a gestão de estoques e centros de distribuição. Atuamos na qualificação de colaboradores e no controle de qualidade, propondo melhorias em instalações, layouts e fluxos operacionais para otimizar a produção e a logística.
@@ -204,7 +204,7 @@ async function Services() {
           <div className="mil-contact-frame mil-mb-30">
             <h3 className="mil-upper mil-up mil-mb-60">Marketing & Estrutura de Mercado</h3>
             <div className="flex row justify-content-between ">
-              <div className="col-lg-6">
+              <div className="col-lg-6 mil-mb-mobile-2">
               <p className="mil-text mil-up">Seu posicionamento de mercado está atraindo os clientes certos ou<b> você sente que a concorrência está sempre à frente?<br/><br/></b>
               </p>
                 <div className="mil-text mil-up" />Ajudamos a posicionar sua marca no mercado por meio da análise de concorrentes, estrutura de preços e estratégias de branding. Implementamos estudos de praça e produto, além de promover estratégias de marketing baseadas em pesquisa, visando aumentar o market share e garantir a comunicação eficiente da marca.
@@ -237,7 +237,7 @@ async function Services() {
           <div className="mil-contact-frame mil-mb-30">
             <h3 className="mil-upper mil-up mil-mb-60">Planejamento de TI</h3>
             <div className="flex row justify-content-between ">
-              <div className="col-lg-6">
+              <div className="col-lg-6 mil-mb-mobile-2">
                 <p className="mil-text mil-up">Sua tecnologia está impulsionando seu crescimento ou <b>você ainda enfrenta desafios operacionais por conta de sistemas desatualizados?<br/><br/></b>
                 </p>
                 <div className="mil-text mil-up" />Estruturamos os processos administrativos para implementar ferramentas tecnológicas que melhoram a gestão empresarial. Criamos centros de custo eficazes, definimos KPI’s e OKR’s e integramos soluções de BI que possibilitam um controle mais apurado e decisões rápidas, além de recomendar a infraestrutura tecnológica ideal para sua operação.

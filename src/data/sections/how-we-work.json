@@ -1,20 +1,20 @@
 {
-    "title": "Aumente o seu faturamento em 50% com a nossa abordagem completa",
+    "title": "Aumentamos o faturamento dos nossos clientes em média de <span class='mil-marker mil-light'>50%</span> com a nossa metodologia aplicada",
     "subtitle": "Resultados",
     "description": "Atuamos em todas as esferas responsáveis pelo crescimento da sua empresa. Desde o planejamento estratégico até a execução operacional, descubra como a nossa expertise abrange cada etapa da sua jornada.",
     "items": [
         {
-            "title": "Estratégico: Definindo o Rumo",
+            "title": "Estratégico:<br/> <span class='mil-thin'> Definindo o Rumo</span>",
             "icon": "/img/icons/7.svg",
             "text": "Trabalhamos com o conselho executivo para alinhar a empresa com seus objetivos de longo prazo. Revisamos missão, visão, valores e definimos expectativas claras, garantindo um futuro sólido e sustentável."
         },
         {
-            "title": "Tático: Transformando Estratégias em Ações",
+            "title": "Tático:<br/> <span class='mil-thin'> Transformando Estratégias em Ações</span>",
             "icon": "/img/icons/8.svg",
             "text": "Transformamos estratégias em ações concretas. Oferecemos consultoria, treinamentos e palestras sobre finanças, gestão de pessoas e investimentos, equipando sua empresa para o crescimento estruturado."
         },
         {
-            "title": "Operacional: Execução com Excelência",
+            "title": "Operacional:<br/> <span class='mil-thin'>Execução com Excelência</span>",
             "icon": "/img/icons/9.svg",
             "text": "Garantimos a execução precisa das operações, com diagnósticos e soluções pontuais para otimizar cada etapa do processo, assegurando eficiência e resultados concretos."
         }
