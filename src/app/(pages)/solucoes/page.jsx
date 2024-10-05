@@ -82,7 +82,7 @@ async function Services() {
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
-                    Construção de Holding no âmbito familiar e empresarial
+                    Planejamento de Holding Empresarial
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
@@ -105,10 +105,11 @@ async function Services() {
             <h3 className="mil-upper mil-up mil-mb-60">Administração Financeira</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6 mil-mb-mobile-2">
-              <p className="mil-text mil-up">Você tem controle total sobre seus números financeiros ou <b class="mil-marker mil-light">sente que está perdendo oportunidades de crescimento?</b>
+              <p className="mil-text mil-up">  <b class="mil-marker mil-light">Conheça todos os números da sua empresa!</b>
               <br/><br/>
               </p>
-                <div className="mil-text mil-up" />Otimizamos a rotina administrativa e financeira com foco em gestão de capital de giro, análise de investimentos, controle de fluxo de caixa e orçamento empresarial. Trabalhamos na precificação, controle de custos e estratégias tributárias, além de planejar a distribuição de lucros, valuation e ponto de equilíbrio, garantindo decisões financeiras inteligentes e sustentáveis.
+                <div className="mil-text mil-up" />Atuamos nas finanças estratégicas no tocante ao planejamento financeiro, na composição de 
+                estratégias tributárias, valution e análise de investimentos.<br/><br/> No campo tátito dimensionamos o capital de giro, analisamos a precificação e estruturamos todo departamento financeiro de forma a garantir o que sua empresa precisa.
               </div>
 
               <div className="col-lg-5">
@@ -116,6 +117,22 @@ async function Services() {
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Gestão do capital de giro eficiente
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
+                    Estruturação de Capital
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
+                    Orçamento empresarial e planejamento financeiro
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
+                    Criação de metas para cada cenário financeiro
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
+                    Fechamentos de resultados
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
@@ -152,6 +169,10 @@ async function Services() {
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
+                    Estruturação de Equipes
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
                     Recrutamento e seleção eficaz
                   </li>
                   <li className="mil-up">
@@ -185,7 +206,15 @@ async function Services() {
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
+                    Estruturação de setor de transportes e armazenagem
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
                     Gestão e controle de estoques
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
+                    Estruturação do Setor Logístico
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
@@ -261,6 +290,10 @@ async function Services() {
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     KPI’s e OKR’s para monitoramento real-time
+                  </li>
+                  <li className="mil-up">
+                    <img src="/img/icons/11.svg" alt="icon" />
+                    Implantação de ERP
                   </li>
                 </ul>
               </div>

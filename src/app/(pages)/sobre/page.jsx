@@ -30,7 +30,8 @@ const Sobre = () => {
     <>
       <PageBanner pageTitle={"Sobre a SEL"} breadTitle={"Sobre a SEL"} bgImage={"/img/photo/18.jpg"} />     
       <CompanyTwoSlider />
-    <TeamSEL/>     
+    <TeamSEL/> 
+    <ServicesTwoSection/>  
     
     <CallToActionSection />
     </>

@@ -6,7 +6,7 @@ const ServicesTwoSection = () => {
     <>
         {/* services two */}
         <section>
-            <div className="container mil-p-120-60">
+            <div className="container mil-p-90-60">
                 <div className="mil-background-grid mil-softened" />
 
                 <div className="row">
@@ -22,10 +22,7 @@ const ServicesTwoSection = () => {
 
                         <div className="mil-up mil-mb-60">
                             <h4 className="mil-upper mil-mb-30">{item.title}</h4>
-                            <p className="mil-mb-30">{item.text}</p>
-                            <Link href={item.link} className="mil-link mil-upper">
-                                Know More <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
-                            </Link>
+                            <p className="mil-mb-30">{item.text}</p>                           
                         </div>
 
                     </div>

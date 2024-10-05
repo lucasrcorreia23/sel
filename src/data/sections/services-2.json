@@ -1,20 +1,20 @@
 {
-    "title": "What We Do",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "title": "Nossos pilares",
+    "description": "O alicerce da nossa consultoria.",
     "items": [
         {
-            "title": "Architecture",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
+            "title": "Missão",
+            "text": "Desenvolver soluções em gestão para que pessoas e empresas extraiam o melhor resultado financeiro de si.",
             "link": "/services/service-1"
         },
         {
-            "title": "Interior Design",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
+            "title": "Visão",
+            "text": "Ser reconhecida nacionalmente como referência em consultoria empresarial atráves da transformação e melhoria proporcionada para as empresas e pessoas que atende e atendeu.",
             "link": "/services/service-2"
         },
         {
-            "title": "Planning",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
+            "title": "Valores",
+            "text": "Soluções, efiência, lucro, discrição.",
             "link": "/services/service-3"
         }
     ]
