@@ -40,8 +40,7 @@ async function Home1() {
       <ServicesSection />
       <AdvantagesSection />      
       <HowWeWorkSection />
-      <CallToActionSection />
-      
+      <CallToActionSection />    
      
     </>
   );
