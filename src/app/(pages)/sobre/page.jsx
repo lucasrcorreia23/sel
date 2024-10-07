@@ -1,40 +1,47 @@
-import React from "react";
+import React, { Suspense } from "react";
 import dynamic from "next/dynamic";
-
 import AppData from "@data/app.json";
+import { getSortedProjectsData } from "@library/projects"; // Importe a função de projetos
 
 import PageBanner from "@components/PageBanner";
-import AwardsSection from "@components/sections/Awards";
-import CallToActionSection from "@components/sections/CallToAction";
-import ContactInfoSection from "@components/sections/ContactInfo";
-import ServicesTwoSection from "@components/sections/ServicesTwo";
 import TeamSEL from "../../_components/sections/TeamSEL";
+import LatestProjectsSection from "../../_components/sections/LatestProjects";
+import ServicesTwoSection from "@components/sections/ServicesTwo";
+import CallToActionSection from "@components/sections/CallToAction";
 
-
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const CompanySlider = dynamic( () => import("@components/sliders/Company"), { ssr: false } );
-const ProcessSlider = dynamic( () => import("@components/sliders/Process"), { ssr: false } );
-const CompanyTwoSlider = dynamic( () => import("@components/sliders/CompanyTwo"), { ssr: false } );
-
+const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
+const CompanyTwoSlider = dynamic(() => import("@components/sliders/CompanyTwo"), { ssr: false });
 
 export const metadata = {
   title: {
-		default: "Sobre a SEL",
-	},
+    default: "Sobre a SEL",
+  },
   description: AppData.settings.siteDescription,
-}
+};
 
-const Sobre = () => {
+async function Sobre() {
+  // Aqui buscamos os projetos da mesma forma que no Home1
+  const projects = await getAllProjects();
+
   return (
     <>
-      <PageBanner pageTitle={"Sobre a SEL"} breadTitle={"Sobre a SEL"} bgImage={"/img/photo/18.jpg"} />     
+      <PageBanner pageTitle={"Sobre a SEL"} breadTitle={"Sobre a SEL"} bgImage={"/img/photo/18.jpg"} />
       <CompanyTwoSlider />
-    <TeamSEL/> 
-    <ServicesTwoSection/>  
-    
-    <CallToActionSection />
+      <TeamSEL />
+      <Suspense fallback={<div>Loading...</div>}>
+        {/* Passando os projetos como props */}
+        <LatestProjectsSection projects={projects} />
+      </Suspense>
+      <ServicesTwoSection />
+      <CallToActionSection />
     </>
   );
-};
+}
+
 export default Sobre;
+
+// Função para buscar todos os projetos
+async function getAllProjects() {
+  const allProjects = getSortedProjectsData();
+  return allProjects;
+}

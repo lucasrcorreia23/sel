@@ -24,7 +24,7 @@ const LatestPostsSection = ( { posts, paddingTop } ) => {
                             </div>
 
                         </div>
-                        {posts.slice(0, Data.numOfItems).map((item, key) => (
+                      
                         <div className="col-lg-6" key={`blog-post-${key}`}>
 
                             <Link href={`/blog/${item.id}`} className="mil-blog-card mil-mb-60">
@@ -40,7 +40,7 @@ const LatestPostsSection = ( { posts, paddingTop } ) => {
                             </Link>
 
                         </div>
-                        ))}
+                      
                     </div>
                 </div>
             </section>
