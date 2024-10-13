@@ -170,11 +170,7 @@ async function Services() {
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Estruturação de Equipes
-                  </li>
-                  <li className="mil-up">
-                    <img src="/img/icons/11.svg" alt="icon" />
-                    Recrutamento e seleção eficaz
-                  </li>
+                  </li>                 
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
                     Avaliação de desempenho constante
@@ -264,7 +260,7 @@ async function Services() {
 
         
           <div className="mil-contact-frame mil-mb-30">
-            <h3 className="mil-upper mil-up mil-mb-60">Planejamento de TI</h3>
+            <h3 className="mil-upper mil-up mil-mb-60">Planejamento de Tecnologias</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6 mil-mb-mobile-2">
                 <p className="mil-text mil-up">Sua tecnologia está impulsionando seu crescimento ou <b class="mil-marker mil-light">você ainda enfrenta desafios operacionais por conta de sistemas desatualizados?</b><br/><br/>

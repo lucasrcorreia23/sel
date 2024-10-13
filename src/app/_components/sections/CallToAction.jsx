@@ -6,7 +6,7 @@ const CallToActionSection = ( { bg } ) => {
     <>
         {/* call to action */}
         <section>
-            <div className="container mil-p-0-120">
+            <div className="container mil-p-120-60">
             <div className="mil-background-grid mil-softened" />
                 <div className="row justify-content-between">
                     <div className="col-lg-4">

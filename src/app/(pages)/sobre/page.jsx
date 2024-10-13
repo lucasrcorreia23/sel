@@ -8,6 +8,7 @@ import TeamSEL from "../../_components/sections/TeamSEL";
 import LatestProjectsSection from "../../_components/sections/LatestProjects";
 import ServicesTwoSection from "@components/sections/ServicesTwo";
 import CallToActionSection from "@components/sections/CallToAction";
+import TestimonialSlider from "../../_components/sliders/Testimonial";
 
 const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
 const CompanyTwoSlider = dynamic(() => import("@components/sliders/CompanyTwo"), { ssr: false });
@@ -32,7 +33,9 @@ async function Sobre() {
         {/* Passando os projetos como props */}
         <LatestProjectsSection projects={projects} />
       </Suspense>
+      <TestimonialSlider showPartners={0} />
       <ServicesTwoSection />
+      
       <CallToActionSection />
     </>
   );

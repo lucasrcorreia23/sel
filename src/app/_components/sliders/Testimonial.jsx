@@ -46,9 +46,7 @@ const TestimonialSlider = ( { showPartners = 1 } ) => {
                                           <div className="mil-quote">
                                               <img src="/img/icons/12.svg" alt="icon" />
                                           </div>
-                                          <div className="mil-review-avatar">
-                                              <img src={item.image} alt={item.name} />
-                                          </div>
+                                         
                                       </div>
                                       <div className="mil-name">
                                           <h6 className="mil-upper">{item.name}</h6>
@@ -65,8 +63,8 @@ const TestimonialSlider = ( { showPartners = 1 } ) => {
                       </Swiper>
 
                       <div className="mil-nav-buttons mil-reviews-nav mil-up">
-                          <div className="mil-slider-button mil-process-prev">Prev</div>
-                          <div className="mil-slider-button mil-process-next">Next</div>
+                          <div className="mil-slider-button mil-process-prev">Anterior</div>
+                          <div className="mil-slider-button mil-process-next">Próximo</div>
                       </div>
 
                   </div>
