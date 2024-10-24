@@ -109,7 +109,7 @@ async function Services() {
               <br/><br/>
               </p>
                 <div className="mil-text mil-up" />Atuamos nas finanças estratégicas no tocante ao planejamento financeiro, na composição de 
-                estratégias tributárias, valution e análise de investimentos.<br/><br/> No campo tátito dimensionamos o capital de giro, analisamos a precificação e estruturamos todo departamento financeiro de forma a garantir o que sua empresa precisa.
+                estratégias tributárias, valution e análise de investimentos.<br/><br/> No campo tático dimensionamos o capital de giro, analisamos a precificação e estruturamos todo departamento financeiro de forma a garantir o que sua empresa precisa.
               </div>
 
               <div className="col-lg-5">
@@ -120,7 +120,7 @@ async function Services() {
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
-                    Estruturação de Capital
+                    Estruturação de capital
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
@@ -156,7 +156,7 @@ async function Services() {
             <h3 className="mil-upper mil-up mil-mb-60">Recursos Humanos</h3>
             <div className="flex row justify-content-between ">
               <div className="col-lg-6 mil-mb-mobile-2">
-              <p className="mil-text mil-up">Seu posicionamento de mercado está atraindo os clientes certos ou <b class="mil-marker mil-light">você sente que a concorrência está sempre à frente?</b><br/><br/>
+              <p className="mil-text mil-up">Seus colaboradores estão engajados e contribuindo para o sucesso da empresa ou <b class="mil-marker mil-light">você enfrenta altas taxas de rotatividade e desmotivação?</b><br/><br/>
               </p>
                 <div className="mil-text mil-up" />Nosso suporte em Recursos Humanos abrange desde a criação do organograma até o dimensionamento e recrutamento do quadro de funcionários. Implementamos avaliações de desempenho e políticas de remuneração baseadas em resultados, assegurando a eficiência no crescimento do capital humano.
               </div>
@@ -210,7 +210,7 @@ async function Services() {
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />
-                    Estruturação do Setor Logístico
+                    Estruturação do setor logístico
                   </li>
                   <li className="mil-up">
                     <img src="/img/icons/11.svg" alt="icon" />

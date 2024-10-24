@@ -27,7 +27,7 @@ const TeamSEL = () => {
                 <div className="mil-up mil-text mil-text-sm mil-mb-30">
                 Natural de Florianópolis, um pai apaixonado por sua família, amante de churrasco, carros antigos e aviações. Como um bom leonino, um homem criterioso e que busca resultados de excelência nos negócios. <br/><br/>
                 
-                Empresário do ramo de Logística e Cadeia de suprimentos, operando obras de relevância nacional e empresas multinacionais. Experiência de 18 anos como consultor empresarial e finanças pessoais, em empresas sediadas no Brasil e no exterior. <br/><br/>
+                Empresário do ramo de logística e cadeia de suprimentos, operando obras de relevância nacional e empresas multinacionais. Experiência de 18 anos como consultor empresarial e finanças pessoais, em empresas sediadas no Brasil e no exterior. <br/><br/>
                 
                 Atua como professor há mais de 16 anos nas áreas de finanças e economia, gestão empresarial e estratégia, produção, logística e qualidade, lecionando nas principais universidades de Santa Catarina. Hoje, leciona em programas de pós-graduação na área de administração e finanças.
                 </div>
@@ -38,12 +38,7 @@ const TeamSEL = () => {
                             <li> <a href="https://www.instagram.com/professorluizh?igsh=MTk5ZnVkb2tlNnptZw==" target="_blank">Instagram</a></li>
                           
                         </ul>
-                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" className="mil-link mil-upper mil-up mil-mb-30">
-                  Saiba mais sobre Luiz Henrique
-                  <span className="mil-arrow">
-                    <img src="img/icons/1.svg" alt="arrow" />
-                  </span>
-                </Link>
+                
               </div>
             </div>
           </div>
@@ -71,7 +66,7 @@ const TeamSEL = () => {
                 <div className="mil-up mil-text mil-text-sm mil-mb-30">
                 Natural de Florianópolis, mulher que ama cuidar das empresas sem esquecer que também cuida de uma casa e de uma família. Literalmente apaixonada pelo que faz!<br/><br/>
 
-                Especializada em Gestão de Pessoas e finanças pessoais, pesquisou e estudou a gestão de fluxo de caixa e a rotina das organizações. Participou, publicou e apresentou trabalhos científicos em revistas e congressos nacionais e internacionais.
+                Especializada em gestão de pessoas e finanças pessoais, pesquisou e estudou a gestão de fluxo de caixa e a rotina das organizações. Participou, publicou e apresentou trabalhos científicos em revistas e congressos nacionais e internacionais.
 
 <br/><br/>
 Atua como consultora de empresas há mais de 10 anos, possuindo vasta experiência no ambiente de gestão familiar de empresas, sucessão e rotina administrativa.
@@ -83,12 +78,7 @@ Atua como consultora de empresas há mais de 10 anos, possuindo vasta experiênc
                            <li> <a href="https://www.instagram.com/camilacsd/?igshid=NDc0ODY0MjQ%3D" target="_blank">Instagram</a></li>
                          
                        </ul>
-                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" className="mil-link mil-upper mil-up mil-mb-30">
-                  Saiba mais sobre Camila Dutra
-                  <span className="mil-arrow">
-                    <img src="img/icons/1.svg" alt="arrow" />
-                  </span>
-                </Link>
+                
               </div>
             </div>
             <div className="mil-right-side">

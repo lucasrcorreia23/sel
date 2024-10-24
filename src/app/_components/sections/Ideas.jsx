@@ -30,12 +30,12 @@ const IdeasSection = () => {
                                 {Data.items.map((item, key) => (
                                 <div className="col-sm-4" key={`ideas-item-${key}`}>
 
-                                    <Link href={item.link} className="mil-icon-box mil-sm-center mil-mb-30">
+                                    <div className="mil-icon-box mil-sm-center mil-mb-30">
                                         <div className="mil-icon mil-icon-accent-bg mil-up mil-mb-30">
                                             <img src={item.icon} alt="icon" />
                                         </div>
                                         <h6 className="mil-upper mil-up" dangerouslySetInnerHTML={{__html : item.label}} />
-                                    </Link>
+                                    </div>
 
                                 </div>
                                 ))}
