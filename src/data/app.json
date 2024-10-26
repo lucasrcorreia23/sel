@@ -2,6 +2,19 @@
     "settings": {
         "siteName": "SEL Consultoria",
         "siteDescription": "Consultoria financeira de empresário para empresário",
+        "whatsapp": {
+            "btnColor": "#2b95ff",
+            "ctaText": "Fale conosco",
+            "cornerRadius": 40,
+            "marginBottom": 20,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "btnPosition": "right",
+            "whatsAppNumber": "5548999898020",
+            "welcomeMessage": "",
+            "zIndex": 999999,
+            "btnColorScheme": "light"
+        },
         "formspreeURL": "https://formspree.io/f/xdknrzql",
         "mailchimp": {
             "url": "",

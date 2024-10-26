@@ -10,6 +10,8 @@ const PagesLayouts = ({
 
       {/* content */}
       <div id="content">
+     
+      
         {children}
 
         <Footer layout={"default"} />

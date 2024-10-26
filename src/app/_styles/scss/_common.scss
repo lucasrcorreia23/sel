@@ -661,6 +661,7 @@ list
     }
 }
 
+
 .mil-icon-list {
     & li {
         list-style-type: none;
@@ -668,7 +669,7 @@ list
         align-items: center;
         color: $dark;
         margin-bottom: 15px;
-        white-space: nowrap;
+        white-space: pre-line;
 
         &:last-child {
             margin-bottom: 0;
