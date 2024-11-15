@@ -21,12 +21,21 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
-    "esModuleInterop": true,
+    
+   
+   
+   
+   
+   
+    
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "target": "es2020",   
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "plugins": [
       {
         "name": "next"
