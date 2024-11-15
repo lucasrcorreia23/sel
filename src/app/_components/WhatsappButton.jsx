@@ -31,7 +31,10 @@ const WhatsappButton = () => {
     };
 
     return () => {
-      document.body.removeChild(script);
+      // Verifica se o script está no document.body antes de tentar removê-lo
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
     };
   }, []);
 

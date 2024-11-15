@@ -634,10 +634,9 @@ list
             content: '';
             display: inline;
             width: 6px;
-            height: 6px;
-            border: solid 1px $dark;
+            height: 6px;           
             background-color: $accent;
-            transform: rotate(45deg);
+           
             margin-right: 15px;
         }
 

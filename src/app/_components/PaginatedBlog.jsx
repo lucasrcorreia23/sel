@@ -14,7 +14,7 @@ const PaginatedBlogPosts = ({ items }) => {
               <span className="mil-suptitle mil-upper mil-up mil-mb-30">{item.category}</span>
               <h4 className="mil-upper mil-up mil-mb-30">{item.title}</h4>
               <p className="mil-up mil-mb-30">{item.short}</p>
-              <span className="mil-link mil-upper mil-up">Read <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></span>
+              <span className="mil-link mil-upper mil-up">Leia <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></span>
           </div>
       </Link>
       ))}

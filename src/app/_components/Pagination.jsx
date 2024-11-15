@@ -15,14 +15,14 @@ const Pagination = ({ currentPage, totalItems, perPage, renderPageLink }) => {
                 <Link key="pagination-item-prev" href={currentPage > 1 ? renderPageLink( currentPage - 1 ) : renderPageLink( currentPage )} className="mil-slider-button mil-banner-prev">Prev</Link>
                 }
                 {currentPage <= 1 &&
-                <div key="pagination-item-prev" className="mil-slider-button mil-banner-prev swiper-button-disabled">Prev</div>
+                <div key="pagination-item-prev" className="mil-slider-button mil-banner-prev swiper-button-disabled">Anterior</div>
                 }
 
                 {currentPage < pages.length &&
                 <Link key="pagination-item-next" href={currentPage < pages.length ? renderPageLink( currentPage + 1 ) : renderPageLink( currentPage )} className="mil-slider-button mil-banner-next">Next</Link>
                 }
                 {currentPage == pages.length &&
-                <div key="pagination-item-next" className="mil-slider-button mil-banner-next swiper-button-disabled">Next</div>
+                <div key="pagination-item-next" className="mil-slider-button mil-banner-next swiper-button-disabled">Próximo</div>
                 }
             </div>
             <ul className="mil-page-numbers">
