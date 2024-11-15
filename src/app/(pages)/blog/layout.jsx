@@ -1,16 +1,10 @@
 'use client';
 
 import { useState, useEffect, useTransition } from 'react';
-import AppData from "@data/app.json";
-import SkeletonLoader from "@components/SkeletonLoader";
 
-export const metadata = {
-  title: {
-    default: AppData.settings.siteName,
-    template: "%s | " + AppData.settings.siteName,
-  },
-  description: AppData.settings.siteDescription,
-};
+import SkeletonLoader from "@components/SkeletonLoader";
+import Head from 'next/head';
+
 
 const Layouts = ({ children }) => {
   const [loading, setLoading] = useState(false);
@@ -22,6 +16,7 @@ const Layouts = ({ children }) => {
 
   return (
     <>
+    <Head><title>Blog</title></Head>
       {loading && <SkeletonLoader />} {/* Exibe o loader enquanto `loading` for true */}
       {children}
     </>
