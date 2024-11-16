@@ -20,7 +20,7 @@ const BlogStrapiPosts = ({ blogs, loading, error }) => {
   return (
     <>
       {blogs.map((blog) => {
-        const blogImageUrl = process.env.NEXT_PUBLIC_API_URL + blog.image;
+        const blogImageUrl = blog.image;
         return (
           <Link href={`/blog/${blog.slug}`} className="mil-blog-card mil-pagination mil-mb-60" key={blog.id}>
             <div className="mil-cover mil-square mil-up">

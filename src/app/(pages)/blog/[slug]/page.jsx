@@ -42,7 +42,7 @@ const PostsDetail = ({ params }) => {
   if (!post) return <p>Post não encontrado.</p>;
 
   const postImageUrl = post.feature
-    ? `${process.env.NEXT_PUBLIC_API_URL}${post.feature}`
+    ? `${post.feature}`
     : "/path/to/default-image.jpg";
 
   // Extrai e concatena os textos de cada parágrafo do rich text
