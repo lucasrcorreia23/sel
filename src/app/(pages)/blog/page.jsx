@@ -9,6 +9,13 @@ import PageBanner from "@components/PageBanner";
 import fetchBlogs from '../../_components/FetchBlog'; // Função de fetch dos blogs do Strapi
 
 
+export const metadata = {
+  title: {
+    default: "Soluções",
+  },
+  description: AppData.settings.siteDescription,
+};
+
 
 function Blog() {
   const [blogs, setBlogs] = useState(null); // Estado para os blogs
@@ -45,7 +52,7 @@ function Blog() {
         <div className="container mil-p-120-60">
           <div className="mil-background-grid mil-softened"></div>
           <div className="row justify-content-between">
-            <div className="col-lg-12">
+            <div className="col-lg-12 d-flex flex-column-reverse">
               <BlogStrapi blogs={blogs} loading={loading} error={error} />
             </div>
           </div>

@@ -20,14 +20,7 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "incremental": true,
-    
-   
-   
-   
-   
-   
-    
+    "incremental": true,         
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,

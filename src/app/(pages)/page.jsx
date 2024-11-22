@@ -19,13 +19,7 @@ import CallToActionSection from "../_components/sections/CallToAction";
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 
-export const metadata = {
-  title: {
-		default: AppData.settings.siteName,
-		
-	},
-  description: AppData.settings.siteDescription,
-}
+
 
 async function Home1() {
   const posts = await getAllPosts();

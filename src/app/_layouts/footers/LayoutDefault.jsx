@@ -35,9 +35,14 @@ const DefaultFooter = () => {
                             </div>
 
                         </div>
-                        <div className="col-md-2 col-lg-2 col-xl-3">
+                        <div className="col-md-3 col-lg-3 col-xl-4">
                             <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Palhoça - SC</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">Office Green <br/>- Rua da Praça, Av. Pedra Branca, 241, Sala 1015.<br/> CEP 88132-000</p>
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
+                                Office Green
+                                <br/>
+                                Passeio Pedra branca
+                                <br/>
+                                Rua da Praça, 241 Sala 1015</p>
                         </div>
                        
                     </div>

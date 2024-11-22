@@ -10,7 +10,7 @@ const TeamSEL = () => {
           <div className="mil-team-member-frame">
             <div className="mil-left-side">
               <div className="mil-member-portrait">
-                <img src="/img/other/luiz.jpg" alt="Professor Luiz Henrique" />
+                <img src="/img/other/2.jpg" alt="Professor Luiz Henrique" />
               </div>
             </div>
             <div className="mil-right-side">
@@ -83,7 +83,7 @@ Atua como consultora de empresas há mais de 10 anos, possuindo vasta experiênc
             </div>
             <div className="mil-right-side">
               <div className="mil-member-portrait">
-                <img src="/img/other/camila-dutra.jpg" alt="Camila Dutra" />
+                <img src="/img/other/1.jpg" alt="Camila Dutra" />
               </div>
             </div>
           </div>

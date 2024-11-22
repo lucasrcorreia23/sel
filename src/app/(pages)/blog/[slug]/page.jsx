@@ -55,8 +55,7 @@ const PostsDetail = ({ params }) => {
   const currentUrl = encodeURIComponent(window.location.href); // URL atual codificada
   return (
     <>
-      <Head>
-        <title>{post.title} | Blog</title>
+      <Head>        
         <meta name="description" content={post.description} />
       </Head>
       <PageBannerTwo

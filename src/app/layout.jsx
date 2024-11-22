@@ -8,13 +8,21 @@ import "@styles/css/plugins/magnific-popup.css";
 
 import { register } from "swiper/element/bundle";
 import ScrollbarProgress from "@layouts/scrollbar-progress/Index";
-import { metadata } from './metadata';
+
 import Script from 'next/script';
 import WhatsappButton from './_components/WhatsappButton';
 
 register();
 
-export const Metadata = metadata;
+import AppData from "@data/app.json";
+
+export const metadata = {
+  title: {
+		default: AppData.settings.siteName,
+		template: "%s | " + AppData.settings.siteName,
+	},
+  description: AppData.settings.siteDescription,
+}
 
 const Layouts = ({ children }) => {
   return (
