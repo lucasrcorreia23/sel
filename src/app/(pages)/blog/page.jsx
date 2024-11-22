@@ -9,13 +9,6 @@ import PageBanner from "@components/PageBanner";
 import fetchBlogs from '../../_components/FetchBlog'; // Função de fetch dos blogs do Strapi
 
 
-export const metadata = {
-  title: {
-    default: "Soluções",
-  },
-  description: AppData.settings.siteDescription,
-};
-
 
 function Blog() {
   const [blogs, setBlogs] = useState(null); // Estado para os blogs

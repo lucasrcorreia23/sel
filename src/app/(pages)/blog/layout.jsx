@@ -3,17 +3,10 @@
 import { useState, useEffect, useTransition } from 'react';
 
 import SkeletonLoader from "@components/SkeletonLoader";
-import AppData from "@data/app.json";
 
 
 
 
-export const metadata = {
-  title: {
-    default: "Soluções",
-  },
-  description: AppData.settings.siteDescription,
-};
 
 
 const Layouts = ({ children }) => {
