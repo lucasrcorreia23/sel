@@ -45,12 +45,11 @@ const PostsDetail = ({ params }) => {
     ? `${post.feature}`
     : "/path/to/default-image.jpg";
 
-  // Extrai e concatena os textos de cada parágrafo do rich text
-  const contentString = post.content
-    .map((paragraph) => paragraph.children.map((child) => child.text).join(""))
-    .join("\n\n");
+  
+    // Converter o conteúdo do blog de Markdown para HTML
+  const contentHTML = marked(post.content);
 
-  const contentHTML = marked(contentString);
+  
   const shareMessage = "Confira o novo post do Blog da SEL"; // Mensagem personalizada
   const currentUrl = encodeURIComponent(window.location.href); // URL atual codificada
   return (
