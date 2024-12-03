@@ -56,6 +56,11 @@
                 "label": "Contato",
                 "link": "/contato",
                 "children": 0
+            } ,     
+            {
+                "label": "Blog",
+                "link": "/blog",
+                "children": 0
             }       
            
         ]
@@ -65,7 +70,7 @@
             "image": "/img/logo/logo-light.png",
             "alt": "Logo"
         },
-        "copy": "© 2023 SEL Consultoria. Todos os direitos reservados.",
+        "copy": "© 2024 SEL Consultoria. Todos os direitos reservados.",
         "menu": [
             {
                 "label": "Início",
@@ -83,6 +88,10 @@
             {
                 "label": "Contato",
                 "link": "/contato"
+            },
+            {
+                "label": "Blog",
+                "link": "/blog"
             }
         ]
     },
