@@ -49,7 +49,7 @@ const DefaultFooter = () => {
                 </div>
                 <div className="col-lg-4 align-items-end sm-align-items-start d-flex flex-column mx-auto">
                     
-                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" target="_blank" className="mil-link mil-light mil-upper mil-right mil-mb-60">Baixar portfólio de produtos <span className="mil-arrow"><img src="img/icons/5.svg" alt="arrow" /></span></Link>                         
+                <Link href="https://consultoriasel.com/wp-content/uploads/2023/12/Portfolio-SEL-Consultoria-Empresarial.pdf" target="_blank" className="mil-link mil-light mil-upper mil-right mil-mb-60">Baixar portfólio de produtos <span className="mil-arrow"><img src="/img/icons/5.svg" alt="arrow" /></span></Link>                         
                         <Link href="/" className="mil-footer-logo mil-up ">
                             <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
                         </Link>                                           
