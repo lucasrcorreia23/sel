@@ -1,6 +1,6 @@
 // app/layout.js
 import '@styles/scss/style.scss';
-import "./globals.css";
+import "@styles/css/globals.css";
 
 import "@styles/css/plugins/bootstrap-grid.css";
 import "@styles/css/plugins/swiper.min.css";
