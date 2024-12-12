@@ -9,6 +9,12 @@
             "text": "Sinto admiração pela Sel Consultoria e pelos profissionais que representam essa empresa, em especial o Luiz e Camila.Tive a oportunidade intermediar a compra e venda de imóveis tanto para a empresa como para os sócios, foi nesse momento que a conexão foi feita, a clareza na negociação e troca de conhecimento foram essenciais para que hoje eu e minha empresa nos tornássemos clientes da SEL. Estamos juntos plantando e colhendo, nosso futuro junto a SEL é sem dúvida promissor! Muito obrigado por toda consultoria desde antes do nosso contrato."
         },
         {
+            "name": "Leonardo",
+            "image": "/img/faces/3.jpg",
+            "role": "Bar do Boni",
+            "text": "As ferramentas que eles nos forneceram ajudaram-me a organizar melhor minhas metas, aprimorar minhas habilidades de liderança e adotar uma postura mais proativa em relação aos desafios e consequentemente apresentar melhores resultaodos."
+        },
+        {
             "name": "Jaqueline Roza Duarte",
             "image": "/img/faces/1.jpg",
             "role": "Palestrante",
@@ -29,9 +35,22 @@
         {
             "name": "Daniel Quadros Silveira",
             "image": "/img/faces/3.jpg",
-            "role": "Luiz Althoff Soluções em Imóveis",
+            "role": "DS Investimentos",
+            "text": "A Sel consultoria agrega todos os dias a minha empresa, o crescimento é notável e além de fazer a consultoria dos números nos dão uma visão muito mais ampla da onde podemos chegar, só gratidão por tudo e todas as empresas deveriam ter uma Sel consultoria em sua empresa."
+        },
+        {
+            "name": "Daniele Carli Savionek",
+            "image": "/img/faces/3.jpg",
+            "role": "Stylo Papelaria",
             "text": "A SEL Consultoria trouxe uma visão clara e detalhada sobre os números da nossa empresa, nos ajudando a definir metas coerentes e tomar decisões mais assertivas. A confiança e a clareza das informações nos permitiram entender melhor nosso negócio e nos preparar para o futuro. Estamos muito satisfeitos com o suporte que recebemos."
+        },
+        {
+            "name": "Daniela Rozane Ramos Crescêncio",
+            "image": "/img/faces/3.jpg",
+            "role": "Empreendedora",
+            "text": "A Camila é maravilhosa em todos os sentidos. Sua percepção de negócios é notória e isso me fez sair mais confiante e certa que primeiro devemos buscar conhecimento e entendimento. Assim, a decisão será mais assertiva para viabilizar o negócio."
         }
+        
     ],
     "showPartners": 2
 }
