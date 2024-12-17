@@ -38,7 +38,7 @@ function Blog() {
 
   return (
     <>
-      <PageBanner pageTitle={"Insights"} breadTitle={"Blog"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Insights"} breadTitle={"Blog"} bgImage={"/img/photo/12.png"} />
 
       {/* blog */}
       <section>
