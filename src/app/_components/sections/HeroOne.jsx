@@ -30,7 +30,7 @@ const HeroOne = () => {
                             </div>
                             
                             <div className="col-xl-5">
-                            <p className="mil-light mil-mb-10 mil-dados ">*Dados referentes ao Exercício de 2023.</p>
+                            <p className="mil-light mil-mb-10 mil-dados ">*Dados referentes ao Exercício de 2024.</p>
                                 <div className="row mil-mb-60">
                                     
                                     {Data.numbers.map((item, key) => (
