@@ -13,6 +13,7 @@ import ScrollbarProgress from "@layouts/scrollbar-progress/Index";
 
 import Script from 'next/script';
 import WhatsappButton from './_components/WhatsappButton';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 register();
 
@@ -55,18 +56,7 @@ const Layouts = ({ children }) => {
         </noscript>
         {/* End Meta Pixel Code */}
 
-          {/* Google tag (gtag.js) */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZD6BW3DGE"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-MZD6BW3DGE');
-          `}
-        </script>
-        {/* End Google tag (gtag.js) */}
+      
       </Head>
       <body>
         <div className="mil-wrapper">
@@ -75,6 +65,7 @@ const Layouts = ({ children }) => {
           <WhatsappButton /> {/* Inclua o botão do WhatsApp aqui */}
         </div>
       </body>
+      <GoogleAnalytics gaId="G-MZD6BW3DGE" />
     </html>
   );
 };
