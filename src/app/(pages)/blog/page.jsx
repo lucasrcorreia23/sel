@@ -53,7 +53,7 @@ function Blog() {
       </section>
       {/* blog end */}
 
-      {/* pagination */}
+      {/* pagination 
       <div className="container mil-p-0-120">
         <div className="mil-background-grid mil-softened" />
         <Pagination
@@ -63,7 +63,7 @@ function Blog() {
           renderPageLink={(page) => `/blog/page/${page}`}
         />
       </div>
-      {/* pagination end */}
+      */}
     </>
   );
 }
