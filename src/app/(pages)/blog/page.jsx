@@ -45,7 +45,7 @@ function Blog() {
         <div className="container mil-p-120-60">
           <div className="mil-background-grid mil-softened"></div>
           <div className="row justify-content-between">
-            <div className="col-lg-12 d-flex flex-column-reverse">
+            <div className="col-lg-12 d-flex flex-column">
             <BlogStrapi blogs={Array.isArray(blogs) ? blogs : []} />
             </div>
           </div>
