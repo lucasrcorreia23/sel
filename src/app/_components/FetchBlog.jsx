@@ -9,8 +9,9 @@ const fetchBlogs = async () => {
   };
 
   try {
+    // Adicione sort=publishedAt:desc na URL
     const request = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/api/blog-pages?populate=*`,
+      `${process.env.NEXT_PUBLIC_API_URL}/api/blog-pages?populate=*&sort=publishedAt:desc`,
       reqOptions
     );
 
@@ -24,29 +25,27 @@ const fetchBlogs = async () => {
     const data = await request.json();
     console.log("Dados completos da API:", data);
 
-    // Ajuste no mapeamento dos dados para garantir que acessamos os atributos corretos
     const blogs = data.data.map((item) => {
-      const attributes = item; // Acessa diretamente os dados, sem 'attributes'
+      const attributes = item;
 
       return {
         id: item.id,
         title: attributes.Titulo || "Untitled",
-        date: attributes.Data || "Data indisponível", // Usa o campo Data corretamente
+        date: attributes.publishedAt || attributes.Data || new Date().toISOString(), // Usa publishedAt como prioridade
         category: attributes.Categorias || "Uncategorized",
-        description: attributes.Description || "No description available",
-        image: attributes.Thumbnail?.[0]?.formats?.medium?.url || attributes.Thumbnail?.[0]?.url || "", // Usa o URL correto da imagem
-        feature: attributes.Destaque?.[0]?.formats?.medium?.url || attributes.Destaque?.[0]?.url || "", // Usa o URL correto da imagem
+        description: attributes.Resumo || "No description available",
+        image: attributes.Thumbnail?.[0]?.formats?.medium?.url || attributes.Thumbnail?.[0]?.url || "",
+        feature: attributes.Destaque?.[0]?.formats?.medium?.url || attributes.Destaque?.[0]?.url || "",
         slug: attributes.slug,
         content: attributes.Conteudo,
         author: attributes.Autor,
-        description: attributes.Resumo,
       };
     });
 
     return blogs;
   } catch (error) {
     console.error("Failed to fetch blogs:", error);
-    return { error: "Failed to fetch blogs" };
+    return []; // Retorna array vazio em vez de objeto
   }
 };
 

@@ -46,14 +46,14 @@ function Blog() {
           <div className="mil-background-grid mil-softened"></div>
           <div className="row justify-content-between">
             <div className="col-lg-12 d-flex flex-column-reverse">
-              <BlogStrapi blogs={blogs} loading={loading} error={error} />
+            <BlogStrapi blogs={Array.isArray(blogs) ? blogs : []} />
             </div>
           </div>
         </div>
       </section>
       {/* blog end */}
 
-      {/* pagination 
+     
       <div className="container mil-p-0-120">
         <div className="mil-background-grid mil-softened" />
         <Pagination
@@ -63,7 +63,7 @@ function Blog() {
           renderPageLink={(page) => `/blog/page/${page}`}
         />
       </div>
-      */}
+     
     </>
   );
 }
