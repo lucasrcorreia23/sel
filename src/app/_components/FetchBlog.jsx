@@ -30,8 +30,8 @@ const fetchBlogs = async () => {
 
       return {
         id: item.id,
-        title: attributes.Titulo || "Untitled",
-        date: attributes.publishedAt || attributes.Data || new Date().toISOString(), // Usa publishedAt como prioridade
+        title: attributes.Titulo || "Sem título",
+        date: attributes.Data || "Sem Data",
         category: attributes.Categorias || "Uncategorized",
         description: attributes.Resumo || "No description available",
         image: attributes.Thumbnail?.[0]?.formats?.medium?.url || attributes.Thumbnail?.[0]?.url || "",
