@@ -54,15 +54,7 @@ function Blog() {
       {/* blog end */}
 
      
-      <div className="container mil-p-0-120">
-        <div className="mil-background-grid mil-softened" />
-        <Pagination
-          currentPage={1} // Exemplo: configure a página atual se necessário
-          totalItems={blogs?.length || 0}
-          perPage={AppData.settings.perPage}
-          renderPageLink={(page) => `/blog/page/${page}`}
-        />
-      </div>
+      
      
     </>
   );
