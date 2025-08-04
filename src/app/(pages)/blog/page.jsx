@@ -38,7 +38,7 @@ function Blog() {
 
   return (
     <>
-      <PageBanner pageTitle={"Insights"} breadTitle={"Blog"} bgImage={"/img/photo/12.png"} />
+      <PageBanner pageTitle={"Insights"} breadTitle={"Blog"} bgImage={"/img/photo/sel5.jpg"} />
 
       {/* blog */}
       <section>
@@ -53,8 +53,17 @@ function Blog() {
       </section>
       {/* blog end */}
 
-     
-      
+     {/* 
+      <div className="container mil-p-0-120">
+        <div className="mil-background-grid mil-softened" />
+        <Pagination
+          currentPage={1} // Exemplo: configure a página atual se necessário
+          totalItems={blogs?.length || 0}
+          perPage={AppData.settings.perPage}
+          renderPageLink={(page) => `/blog/page/${page}`}
+        />
+      </div>
+      */}
      
     </>
   );
